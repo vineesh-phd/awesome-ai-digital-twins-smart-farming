@@ -16,7 +16,9 @@ A curated research collection on AI-enabled agricultural digital twins, with pre
 - [Modelling to Measurable Outcomes](#modelling-to-measurable-outcomes)
 - [Citation Integrity Audit](#citation-integrity-audit)
 - [Maintaining the Collection](#maintaining-the-collection)
-- [Assignment and Repository Status](#assignment-and-repository-status)
+- [Assignment](#assignment)
+- [Repository Status](#repository-status)
+- [Archived](#archived)
 - [License](#license)
 
 ## Overview
@@ -121,11 +123,21 @@ Optional maintenance: `python3 scripts/check_links.py` refreshes the external-li
 
 The checker tests local links, counts, and assets, not scientific truth. [Remote link-check results](references/link-check.md) distinguish successful requests from blocked or inconclusive responses.
 
-## Assignment and Repository Status
+## Assignment
 
-The local folder and Git remote retain the old repository name; no remote rename, commit, or push was performed. Suggested future name: **awesome-ai-digital-twins-smart-farming**.
+This repository supports Assignment 2, **Create Your Own Awesome Research Repository on GitHub**, for the subject **AI Tools for Research**. The [Assignment 2 checklist](docs/assignment-2-checklist.md) maps the required paper, citation audit, bibliography, datasets, tools, implementations, and learning resources to the repository contents. Independent source review, an appropriate repository description, meaningful commit history, and final submission checks remain part of the assignment workflow.
 
-The [Assignment 2 checklist](docs/assignment-2-checklist.md) records remaining student actions: topic-change approval, independent source review, naming and description, and genuine commit history. Previous-topic PDFs are preserved in the [historical archive](archive/previous-topic/README.md) and do not count toward this collection.
+## Repository Status
+
+The repository has been renamed from **awesome-llm-academic-writing** to **awesome-ai-digital-twins-smart-farming**, both in the local Mac folder and on GitHub. The smart-farming update has been pushed to GitHub.
+
+- **Previous name:** `awesome-llm-academic-writing`
+- **Current name:** `awesome-ai-digital-twins-smart-farming`
+- **GitHub repository:** [vineesh-phd/awesome-ai-digital-twins-smart-farming](https://github.com/vineesh-phd/awesome-ai-digital-twins-smart-farming)
+
+## Archived
+
+Previous-topic PDFs are preserved in the [historical archive](archive/previous-topic/README.md) and do not count toward the current collection. Older absolute file links containing the previous folder name must be updated to use the new name.
 
 ## License
 
