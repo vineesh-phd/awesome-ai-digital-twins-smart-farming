@@ -1,0 +1,102 @@
+{
+  "checked_on": "2026-09-25",
+  "method": "Read-only GitHub repository API snapshot; pushed_at is not proof of successful execution.",
+  "repositories": {
+    "lululxvi/deepxde": {
+      "full_name": "lululxvi/deepxde",
+      "html_url": "https://github.com/lululxvi/deepxde",
+      "description": "A library for scientific machine learning and physics-informed learning",
+      "default_branch": "master",
+      "pushed_at": "2026-08-18T01:17:55Z",
+      "updated_at": "2026-09-25T05:30:03Z",
+      "archived": false,
+      "license": {
+        "key": "lgpl-2.1",
+        "name": "GNU Lesser General Public License v2.1",
+        "spdx_id": "LGPL-2.1",
+        "url": "https://api.github.com/licenses/lgpl-2.1",
+        "node_id": "MDc6TGljZW5zZTEx"
+      },
+      "private": false
+    },
+    "aquacropos/aquacrop": {
+      "full_name": "aquacropos/aquacrop",
+      "html_url": "https://github.com/aquacropos/aquacrop",
+      "description": "AquaCrop-OSPy: Python implementation of AquaCrop-OS",
+      "default_branch": "master",
+      "pushed_at": "2026-09-23T18:31:27Z",
+      "updated_at": "2026-09-23T18:30:49Z",
+      "archived": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "private": false
+    },
+    "APSIMInitiative/ApsimX": {
+      "full_name": "APSIMInitiative/ApsimX",
+      "html_url": "https://github.com/APSIMInitiative/ApsimX",
+      "description": "ApsimX is the next generation of APSIM",
+      "default_branch": "master",
+      "pushed_at": "2026-09-25T04:55:19Z",
+      "updated_at": "2026-09-25T04:55:24Z",
+      "archived": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "private": false
+    },
+    "ajwdewit/pcse": {
+      "full_name": "ajwdewit/pcse",
+      "html_url": "https://github.com/ajwdewit/pcse",
+      "description": "Repository for the Python Crop Simulation Environment",
+      "default_branch": "master",
+      "pushed_at": "2026-09-01T12:23:57Z",
+      "updated_at": "2026-09-18T08:30:31Z",
+      "archived": false,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "private": false
+    },
+    "do-mpc/do-mpc": {
+      "full_name": "do-mpc/do-mpc",
+      "html_url": "https://github.com/do-mpc/do-mpc",
+      "description": "Model predictive control python toolbox",
+      "default_branch": "master",
+      "pushed_at": "2026-09-22T12:07:27Z",
+      "updated_at": "2026-09-24T22:03:18Z",
+      "archived": false,
+      "license": {
+        "key": "lgpl-3.0",
+        "name": "GNU Lesser General Public License v3.0",
+        "spdx_id": "LGPL-3.0",
+        "url": "https://api.github.com/licenses/lgpl-3.0",
+        "node_id": "MDc6TGljZW5zZTEy"
+      },
+      "private": false
+    },
+    "vineesh-phd/awesome-llm-academic-writing": {
+      "full_name": "vineesh-phd/awesome-llm-academic-writing",
+      "html_url": "https://github.com/vineesh-phd/awesome-llm-academic-writing",
+      "description": "   A curated, verified collection of research papers, datasets, tools, and implementations on LLMs for academic and scientific writing.",
+      "default_branch": "main",
+      "pushed_at": "2026-08-28T09:33:02Z",
+      "updated_at": "2026-08-28T09:33:29Z",
+      "archived": false,
+      "license": null,
+      "private": false
+    }
+  }
+}

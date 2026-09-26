@@ -1,0 +1,474 @@
+{
+  "checked_at_utc": "2026-09-25T18:35:58+00:00",
+  "method": "HEAD, then GET on HTTP error; response bodies not downloaded",
+  "results": [
+    {
+      "url": "https://api.crossref.org/works/10.1007/s10236-003-0036-9",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1007/s10236-003-0036-9"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.agsy.2020.103046",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.agsy.2020.103046"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.agwat.2016.11.015",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.agwat.2016.11.015"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.agwat.2025.109957",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.agwat.2025.109957"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.atech.2022.100094",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.atech.2022.100094"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.atech.2026.102283",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.atech.2026.102283"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.compag.2020.105942",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.compag.2020.105942"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.enconman.2025.120505",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.enconman.2025.120505"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.envsoft.2014.07.009",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.envsoft.2014.07.009"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.ifacol.2018.08.474",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.ifacol.2018.08.474"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.jcp.2018.10.045",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1016/j.jcp.2018.10.045"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1029/2020wr027642",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1029/2020wr027642"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1029/wr012i003p00513",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1029/wr012i003p00513"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038/s42254-021-00314-5",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1038/s42254-021-00314-5"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1063/1.1745010",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1063/1.1745010"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1137/19m1274067",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.1137/19m1274067"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.2134/agronj2008.0139s",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.2134/agronj2008.0139s"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.2136/sssaj1980.03615995004400050002x",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.2136/sssaj1980.03615995004400050002x"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.5194/essd-13-4349-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.5194/essd-13-4349-2021"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.5194/hess-25-5749-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.5194/hess-25-5749-2021"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.5194/hess-26-4469-2022",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.5194/hess-26-4469-2022"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.5194/soil-7-217-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://api.crossref.org/works/10.5194/soil-7-217-2021"
+    },
+    {
+      "url": "https://aquacropos.github.io/aquacrop/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://aquacropos.github.io/aquacrop/"
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.12694",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://arxiv.org/abs/2204.12694"
+    },
+    {
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview"
+    },
+    {
+      "url": "https://deepxde.readthedocs.io/en/latest/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://deepxde.readthedocs.io/en/latest/"
+    },
+    {
+      "url": "https://deepxde.readthedocs.io/en/latest/demos/pinn_inverse.html",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://deepxde.readthedocs.io/en/latest/demos/pinn_inverse.html"
+    },
+    {
+      "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html"
+    },
+    {
+      "url": "https://docs.xarray.dev/en/stable/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://docs.xarray.dev/en/stable/"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10236-003-0036-9",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://link.springer.com/article/10.1007/s10236-003-0036-9?error=cookies_not_supported&code=d7a72955-c740-4169-9070-20977eb23ab7"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.agsy.2020.103046",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0308521X20309070"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.agwat.2016.11.015",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0378377416304589"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.agwat.2025.109957",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0378377425006717"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.atech.2022.100094",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S2772375522000594"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.atech.2026.102283",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S2772375526005083"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.compag.2020.105942",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0168169920331471"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.enconman.2025.120505",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0196890425010295"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.envsoft.2014.07.009",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S1364815214002102"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ifacol.2018.08.474",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896318316021"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jcp.2018.10.045",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://linkinghub.elsevier.com/retrieve/pii/S0021999118307125"
+    },
+    {
+      "url": "https://doi.org/10.1029/2020wr027642",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1029/wr012i003p00513",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1038/s42254-021-00314-5",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://www.nature.com/articles/s42254-021-00314-5?error=cookies_not_supported&code=46dd49e0-ab90-4501-b5c3-886a8faa5809"
+    },
+    {
+      "url": "https://doi.org/10.1063/1.1745010",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1137/19m1274067",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.2134/agronj2008.0139s",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.2136/sssaj1980.03615995004400050002x",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.48550/arXiv.2204.12694",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://arxiv.org/abs/2204.12694"
+    },
+    {
+      "url": "https://doi.org/10.5067/M20OXIZHY3RJ",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://nsidc.org/data/spl3smp_e/versions/6"
+    },
+    {
+      "url": "https://doi.org/10.5194/essd-13-4349-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://essd.copernicus.org/articles/13/4349/2021/"
+    },
+    {
+      "url": "https://doi.org/10.5194/hess-25-5749-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://hess.copernicus.org/articles/25/5749/2021/"
+    },
+    {
+      "url": "https://doi.org/10.5194/hess-26-4469-2022",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://hess.copernicus.org/articles/26/4469/2022/"
+    },
+    {
+      "url": "https://doi.org/10.5194/soil-7-217-2021",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://soil.copernicus.org/articles/7/217/2021/"
+    },
+    {
+      "url": "https://edepot.wur.nl/541204",
+      "status": "reachable",
+      "http": 200,
+      "detail": "GET; final URL: https://edepot.wur.nl/541204"
+    },
+    {
+      "url": "https://essd.copernicus.org/articles/13/4349/2021/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://essd.copernicus.org/articles/13/4349/2021/"
+    },
+    {
+      "url": "https://github.com/APSIMInitiative/ApsimX",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/APSIMInitiative/ApsimX"
+    },
+    {
+      "url": "https://github.com/APSIMInitiative/ApsimX/blob/master/LICENSE.md",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/APSIMInitiative/ApsimX/blob/master/LICENSE.md"
+    },
+    {
+      "url": "https://github.com/ajwdewit/pcse",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/ajwdewit/pcse"
+    },
+    {
+      "url": "https://github.com/aquacropos/aquacrop",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/aquacropos/aquacrop"
+    },
+    {
+      "url": "https://github.com/do-mpc/do-mpc",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/do-mpc/do-mpc"
+    },
+    {
+      "url": "https://github.com/lululxvi/deepxde",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://github.com/lululxvi/deepxde"
+    },
+    {
+      "url": "https://hess.copernicus.org/articles/25/5749/2021/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://hess.copernicus.org/articles/25/5749/2021/"
+    },
+    {
+      "url": "https://hess.copernicus.org/articles/26/4469/2022/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://hess.copernicus.org/articles/26/4469/2022/"
+    },
+    {
+      "url": "https://ismn.earth/data/data-availability/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://ismn.earth/en/data/data-availability/"
+    },
+    {
+      "url": "https://ismn.earth/data/data-download/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://ismn.earth/en/data/data-download/"
+    },
+    {
+      "url": "https://ismn.readthedocs.io/en/latest/examples/interface.html",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://ismn.readthedocs.io/en/latest/examples/interface.html"
+    },
+    {
+      "url": "https://nsidc.org/data/spl3smp_e/versions/6",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://nsidc.org/data/spl3smp_e/versions/6"
+    },
+    {
+      "url": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html"
+    },
+    {
+      "url": "https://pcse.readthedocs.io/en/stable/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://pcse.readthedocs.io/en/stable/"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://power.larc.nasa.gov/"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/tutorials/service-data-request/api/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://power.larc.nasa.gov/docs/tutorials/service-data-request/api/"
+    },
+    {
+      "url": "https://soil.copernicus.org/articles/7/217/2021/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://soil.copernicus.org/articles/7/217/2021/"
+    },
+    {
+      "url": "https://tutorial.xarray.dev/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://tutorial.xarray.dev/"
+    },
+    {
+      "url": "https://www.athanasiadis.info/assets/pdf/cea2021.pdf",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://www.athanasiadis.info/assets/pdf/cea2021.pdf"
+    },
+    {
+      "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://www.crossref.org/documentation/retrieve-metadata/rest-api/"
+    },
+    {
+      "url": "https://www.do-mpc.com/en/latest/",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://www.do-mpc.com/en/latest/"
+    },
+    {
+      "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "status": "reachable",
+      "http": 200,
+      "detail": "HEAD; final URL: https://www.fao.org/4/x0490e/x0490e00.htm"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772375526005083",
+      "status": "inconclusive",
+      "http": 403,
+      "detail": "GET: Forbidden"
+    }
+  ]
+}

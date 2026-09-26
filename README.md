@@ -1,178 +1,132 @@
-# Awesome LLMs for Academic Writing
+# Awesome AI and Digital Twins for Smart Farming
 
-A curated, independently verified collection of research papers, datasets, tools, implementations, and learning resources on Large Language Models in academic and scientific writing — with a focus on **stylistic homogenization risk**: how LLM assistance both lowers linguistic barriers for non-native English researchers and risks flattening scholarly voice into a uniform algorithmic style.
+A curated research collection on AI-enabled agricultural digital twins, with precision irrigation as the main technical case. It connects governing equations, model calibration, physics-informed learning, and control to measurable soil moisture, irrigation delivery, consumptive water use, and crop outcomes.
+
+**Collection:** 23 published scholarly papers, 1 technical guide, 1 preprint, 5 datasets, 7 tools, 5 implementations, and 7 learning resources. Last checked: **25 September 2026**. This is an AI-assisted, source-checked collection, not a claim that the student has independently reviewed every full text.
 
 ## Contents
+
 - [Overview](#overview)
 - [AI-Assisted Research Paper](#ai-assisted-research-paper)
-- [Survey Papers](#survey-papers)
-- [Foundational Papers](#foundational-papers)
-- [Stylistic & Lexical Impact Studies](#stylistic--lexical-impact-studies)
-- [Automated Writing & Literature Review Generation](#automated-writing--literature-review-generation)
-- [Ethics, Authorship & Integrity](#ethics-authorship--integrity)
+- [Curated Research Papers](#curated-research-papers)
 - [Datasets](#datasets)
 - [Tools and Libraries](#tools-and-libraries)
 - [GitHub Implementations](#github-implementations)
-- [Tutorials](#tutorials)
+- [Tutorials and Learning Resources](#tutorials-and-learning-resources)
+- [Modelling to Measurable Outcomes](#modelling-to-measurable-outcomes)
 - [Citation Integrity Audit](#citation-integrity-audit)
+- [Maintaining the Collection](#maintaining-the-collection)
+- [Assignment and Repository Status](#assignment-and-repository-status)
 - [License](#license)
 
 ## Overview
 
-Large Language Models such as ChatGPT and GPT-4 have become embedded in nearly every stage of the academic writing pipeline — drafting abstracts, outlining literature reviews, and polishing prose for non-native English speakers. This assistance offers genuine benefits, most notably as a "linguistic equalizer" that measurably raises the lexical sophistication of research produced by non-native English-speaking authors. At the same time, because millions of researchers now lean on the same small set of underlying models, a growing empirical record shows LLM-assisted writing converging toward a narrower, more uniform style: reduced lexical and semantic diversity in co-written text, homogenized creative ideation, and detectable shifts in the vocabulary of published abstracts across entire disciplines.
+Agricultural digital twins link observations of a physical farm system to computational representations and management decisions. For irrigation, the physical system includes soil layers, crops, weather exposure, pumps, and valves. A useful twin must do more than display sensor readings: it should update the estimated field state, predict consequences of possible actions, and record whether irrigation was actually delivered. Human-approved recommendations and autonomous control are different operating modes and should be described honestly.
 
-This repository curates the research base for that tension. It brings together survey papers mapping LLM capabilities and adoption in academia, foundational architecture papers, empirical studies quantifying stylistic and lexical convergence, systems that automate literature-review and survey writing, and work on the ethics, authorship, and integrity questions raised by AI-assisted scholarship — including the well-documented problem of hallucinated citations. Every paper listed here was independently checked against its primary source (arXiv, DOI/Crossref, ACM DL, or JMIR) rather than accepted on an AI tool's word, in keeping with the citation-integrity audit that accompanies this repository.
+Artificial intelligence can assist with forecasting, state estimation, simulator approximation, and the interpretation of heterogeneous observations. Physical models remain important because water storage, infiltration, drainage, and crop demand constrain what a prediction can mean. This collection covers root-zone water balance, the Richardson-Richards equation, soil hydraulic relationships, crop models, parameter calibration, data assimilation, physics-informed neural networks, and model predictive control. Physics-informed learning is treated as a candidate method to compare against established alternatives, not as an automatic improvement.
+
+The central research question is whether better modelling produces better decisions under field uncertainty. Soil-moisture accuracy, conservation error, metered irrigation volume, actual evapotranspiration, crop response, and operating cost are distinct outcomes. Satellite retrievals and reanalysis provide context, but neither automatically replaces local measurements or controlled field trials. Greenhouse and water-salt management studies broaden the application perspective while keeping site-specific evidence separate from universal performance claims.
 
 ## AI-Assisted Research Paper
 
-**Stylistic Homogenization Risk in Large Language Model-Assisted Academic Writing** — examines the double-edged nature of LLM writing assistance: its role as a linguistic equalizer for non-native English researchers, weighed against the risk of a stagnant, homogenized academic writing style, an eroding sense of authorship accountability, and a self-reinforcing "epistemic echo chamber" as future models train on LLM-influenced text.
-[View Paper](paper/AI_Assisted_Research_Paper.pdf)
+**The Convergence of Artificial Intelligence and Digital Twins for Smart Farming: A Critical Review of Architectures, Applications, and Research Directions**
 
-## Survey Papers
+This critical narrative review connects twin architectures with physical modelling, calibration, assimilation, PINNs, and constrained irrigation decisions. It includes 12 numbered equations, 20 references, an architecture diagram, two comparison tables, and an illustrative irrigation calculation. It reports no new field experiment or measured water-saving percentage.
 
-- **Large Language Models for Automated Scholarly Paper Review: A Survey**
-  Zhuang, Chen, Xu, Jiang, Lin (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2501.10326)
-  Comprehensive survey of LLMs used specifically in automated manuscript review.
+[Read the paper](paper/AI_Assisted_Research_Paper.pdf) | [Word manuscript](paper/Smart_Farming_Digital_Twins_Critical_Review.docx) | [Paper provenance](paper/README.md)
 
-- **How much are LLMs changing the language of academic papers after ChatGPT? A multi-database and full text analysis**
-  (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2509.09596)
-  Large-scale analysis of 2.4M+ PubMed Central articles measuring LLM-associated term frequency in published writing.
+## Curated Research Papers
 
-- **Exploring the adoption of ChatGPT in academic publishing: insights and lessons for scientific writing**
-  Homolak (2023), *Croatian Medical Journal*, 64(3), 205–207
-  [Paper (DOI)](https://doi.org/10.3325/cmj.2023.64.205)
-  Early editorial on AI-detection inconsistency in scientific abstracts.
+The [annotated bibliography](references/references.md) provides titles, authors, years, venues, primary links, relevance notes, and evidence limits. **R01-R20 correspond to references [1]-[20] in the paper.** R21-R25 extend the repository; they have not been silently added to the manuscript.
 
-## Foundational Papers
+| Category | Resources | Purpose |
+| --- | --- | --- |
+| [Digital-twin reviews and architectures](references/references.md#digital-twin-reviews-and-architectures) | R01-R05 | Definitions, agricultural use cases, feedback, interoperability |
+| [Soil physics and crop models](references/references.md#soil-physics-and-crop-models) | R07-R11, R23 | Conservation, hydraulic closure, crop-water response |
+| [Calibration and physics-informed learning](references/references.md#calibration-and-physics-informed-learning) | R12-R17, R21 | State updating, inverse problems, PINNs, failure modes |
+| [Smart-farming applications](references/references.md#smart-farming-applications) | R19-R20 | Irrigation-drainage and greenhouse case studies |
+| [Data and evaluation foundations](references/references.md#data-and-evaluation-foundations) | R22, R24-R25 | Soil observations, reanalysis, spatial uncertainty |
+| [Technical guide and preprint](references/references.md#technical-guide-and-preprint) | R06, R18 | FAO guidance and a labelled control preprint |
 
-- **A Comprehensive Overview of Large Language Models**
-  Naveed, Khan, Qiu, Saqib, Anwar, Usman, Akhtar, Barnes, Mian (2023), arXiv preprint
-  [Paper](https://arxiv.org/abs/2307.06435)
-  Widely-cited survey of LLM architectures and emergent capabilities underlying every downstream application discussed here.
+### Starting Papers
 
-## Stylistic & Lexical Impact Studies
-
-- **ChatGPT as Linguistic Equalizer? Quantifying LLM-Driven Lexical Shifts in Academic Writing**
-  Lin, Zhao, Tian, Li (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2504.12317)
-  Causal analysis of 2.8M OpenAlex articles showing ChatGPT raises lexical complexity for non-native-English authors.
-
-- **Homogenization Effects of Large Language Models on Human Creative Ideation**
-  Anderson, Shah, Kreminski (2024), *Creativity and Cognition (C&C '24)*
-  [Paper (DOI)](https://doi.org/10.1145/3635636.3656204)
-  36-participant study finding ChatGPT users produce less semantically distinct ideas than users of an alternative tool.
-
-- **Homogenizing effect of large language models (LLMs) on creative diversity: An empirical comparison of human and ChatGPT writing**
-  Moon, Green, Kushlev (2025), *Computers in Human Behavior: Artificial Humans*, 6, 100207
-  [Paper (DOI)](https://doi.org/10.1016/j.chbah.2025.100207)
-  Direct empirical comparison of human vs. ChatGPT writing diversity.
-
-- **Does Writing with Language Models Reduce Content Diversity?**
-  Padmakumar, He (2024), *ICLR 2024*
-  [Paper](https://arxiv.org/abs/2309.05196)
-  Controlled experiment showing InstructGPT significantly reduces lexical and content diversity in co-written essays.
-
-- **The Homogenizing Effect of Large Language Models on Human Expression and Thought**
-  Sourati, Ziabari, Dehghani (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2508.01491)
-  Broader treatment of LLM-driven homogenization extending into human thought patterns.
-
-- **Divergent LLM Adoption and Heterogeneous Convergence Paths in Research Writing**
-  Cong, Zhu (2024), arXiv preprint
-  [Paper](https://arxiv.org/abs/2504.13629)
-  627,000-paper analysis showing convergence is uneven — most pronounced among early adopters and junior scholars.
-
-- **Examining Linguistic Shifts in Academic Writing Before and After the Launch of ChatGPT: A Study on Preprint Papers**
-  Bao, Zhao, Mao, Zhang (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2505.12218)
-  823,798-abstract analysis finding Computer Science shows the most pronounced post-ChatGPT style shift.
-
-## Automated Writing & Literature Review Generation
-
-- **Large Language Models for Automated Literature Review: An Evaluation of Reference Generation, Abstract Writing, and Review Composition**
-  Tang, Duan, Cai (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2412.13612)
-  Introduces hallucination-rate and semantic-coverage metrics for LLM-generated literature reviews.
-
-- **AutoSurvey: Large Language Models Can Automatically Write Surveys**
-  Wang, Guo, Yao, et al. (2024), arXiv preprint
-  [Paper](https://arxiv.org/abs/2406.10252)
-  Automated survey-writing pipeline addressing context-window and evaluation-benchmark limitations.
-
-- **InteractiveSurvey: An LLM-based Personalized and Interactive Survey Paper Generation System**
-  (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2504.08762)
-  RAG-based system letting users customize outline and categorization during generation.
-
-- **Evaluation Sheet for Deep Research: A Use Case for Academic Survey Writing**
-  Azime, Belay, Tonja (2025), arXiv preprint
-  [Paper](https://arxiv.org/abs/2510.01283)
-  Evaluation rubric comparing OpenAI's and Google's deep-research tools on academic survey generation.
-
-## Ethics, Authorship & Integrity
-
-- **ChatGPT for scientific paper writing—promises and perils**
-  He, Yang, Zuo, Lin (2023), *The Innovation*, 4(6), 100524
-  [Paper (DOI)](https://doi.org/10.1016/j.xinn.2023.100524)
-  Frames LLM writing assistance as a "double-edged sword" — origin of the stylistic-stagnation concern this repository examines.
-
-- **Do Language Models Know When They're Hallucinating References?**
-  Agrawal, Suzgun, Mackey, Kalai (2024), *Findings of ACL: EACL 2024*, pp. 912–928
-  [Paper](https://arxiv.org/abs/2305.18248)
-  Proposes hallucinated references as a tractable "model organism" for studying LLM hallucination.
-
-- **On the Detectability of ChatGPT Content: Benchmarking, Methodology, and Evaluation through the Lens of Academic Writing**
-  Liu, Yao, Li, Luo (2024), *ACM CCS '24*
-  [Paper](https://arxiv.org/abs/2306.05524)
-  2.8M-sample benchmark and detector (CheckGPT) built specifically for academic abstracts.
-
-- **ChatGPT or academic scientist? Distinguishing authorship with over 99% accuracy using off-the-shelf machine learning tools**
-  Desaire, Chua, Isom, Jarosova, Hua (2023), arXiv preprint
-  [Paper](https://arxiv.org/abs/2303.16352)
-  High-accuracy authorship attribution using simple, interpretable stylometric features.
-
-- **Influence of Topic Familiarity and Prompt Specificity on Citation Fabrication in Mental Health Research Using Large Language Models: Experimental Study**
-  Linardon, Jarman, McClure, Anderson, Liu, Messer (2025), *JMIR*
-  [Paper (DOI)](https://doi.org/10.2196/80371)
-  Shows citation-fabrication rates vary systematically with topic familiarity and prompt specificity.
+- **Digital twins in smart farming** - Verdouw, Tekinerdogan, Beulens, and Wolfert (2021), *Agricultural Systems*. [DOI](https://doi.org/10.1016/j.agsy.2020.103046). A framework connecting digital representations to farm management.
+- **Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition** - Bandai and Ghezzehei (2022), *Hydrology and Earth System Sciences*. [Paper](https://hess.copernicus.org/articles/26/4469/2022/). Soil-water PINNs with numerical comparisons and stated limitations.
+- **Characterizing possible failure modes in physics-informed neural networks** - Krishnapriyan, Gholami, Zhe, Kirby, and Mahoney (2021), *NeurIPS*. [Proceedings](https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html). Evidence against treating physics residuals as guarantees of accuracy.
+- **Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems** - Qin et al. (2025), *Agricultural Water Management*. [DOI](https://doi.org/10.1016/j.agwat.2025.109957). A physical implementation linking moisture, salt, and drainage management.
+- **The International Soil Moisture Network: serving Earth system science for over a decade** - Dorigo et al. (2021), *Hydrology and Earth System Sciences*. [Paper](https://hess.copernicus.org/articles/25/5749/2021/). Background for selecting independent moisture observations.
 
 ## Datasets
 
-- **arXiv Dataset (Kaggle bulk metadata)** — [Link](https://www.kaggle.com/datasets/Cornell-University/arxiv) — metadata/abstracts for 2M+ papers, used by several stylistic-shift studies above.
-- **OpenAlex** — [Link](https://openalex.org/) — the 2.8M-article corpus behind Lin et al.'s (2025) lexical-shift study.
-- **CHEAT Dataset** — [Link](https://arxiv.org/abs/2304.12008) — 35,304 synthetic ChatGPT-written/polished abstracts paired with originals, for training/evaluating detectors.
+The [dataset catalogue](datasets/datasets.md) records sources, access conditions, proposed uses, scales, and limitations. No third-party dataset is redistributed.
+
+| Dataset | Research role | Important limit |
+| --- | --- | --- |
+| [ISMN](https://ismn.earth/data/data-download/) | In-situ moisture validation | Depth and irrigation records vary by station |
+| [SMAP SPL3SMP_E v6](https://nsidc.org/data/spl3smp_e/versions/6) | Satellite surface-moisture context | Not field-scale root-zone truth |
+| [ERA5-Land](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land) | Historical land and weather context | Modelled reanalysis, not independent observations |
+| [SoilGrids](https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html) | Soil-property priors | Predictions require local checking |
+| [NASA POWER](https://power.larc.nasa.gov/) | Exploratory weather forcing | Historical forcing is not an operational forecast |
 
 ## Tools and Libraries
 
-- **Zotero** — [Link](https://www.zotero.org/) — reference management.
-- **Semantic Scholar API** — [Link](https://api.semanticscholar.org/) — programmatic paper search/verification.
-- **Crossref API** — [Link](https://www.crossref.org/) — DOI metadata verification.
-- **scite.ai** — [Link](https://scite.ai/) — citation-context verification (supports/contrasts/mentions).
-- **Grammarly** — [Link](https://www.grammarly.com/) — AI-assisted writing/grammar tool.
+[Detailed catalogue](tools/tools.md): **DeepXDE**, **AquaCrop-OSPy**, **APSIM Next Generation**, **PCSE**, **do-mpc**, **Xarray**, and the **Crossref REST API**. They cover models, control, environmental arrays, and reference verification. None constitutes a field-ready digital twin on its own.
 
 ## GitHub Implementations
 
-- **AutoSurveys/AutoSurvey** — [Link](https://github.com/AutoSurveys/AutoSurvey) — official AutoSurvey implementation.
-- **microsoft/hallucinatedreferences** — [Link](https://github.com/microsoft/hallucinatedreferences) — hallucinated-reference consistency-check methodology.
-- **eric-mitchell/detect-gpt** — [Link](https://github.com/eric-mitchell/detect-gpt) — official DetectGPT implementation.
-- **openai/gpt-2-output-dataset** — [Link](https://github.com/openai/gpt-2-output-dataset) — OpenAI's original GPT-2 output detector.
-- **huggingface/transformers** — [Link](https://github.com/huggingface/transformers) — standard library underlying most LLM tooling referenced here.
+The [implementation review](implementations/github-repositories.md) records documentation, examples, license terms, activity snapshots, and limits for:
 
-## Tutorials
+- [lululxvi/deepxde](https://github.com/lululxvi/deepxde): forward and inverse physics-informed modelling.
+- [aquacropos/aquacrop](https://github.com/aquacropos/aquacrop): crop-water simulation and irrigation experiments.
+- [APSIMInitiative/ApsimX](https://github.com/APSIMInitiative/ApsimX): modular agricultural simulation.
+- [ajwdewit/pcse](https://github.com/ajwdewit/pcse): crop simulation components.
+- [do-mpc/do-mpc](https://github.com/do-mpc/do-mpc): constrained model predictive control.
 
-- [GitHub Docs — Get Started](https://docs.github.com/en/get-started)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Semantic Scholar API Docs](https://www.semanticscholar.org/product/api)
-- [Crossref REST API Docs](https://github.com/CrossRef/rest-api-doc)
-- [DetectGPT Project Page](https://ericmitchell.ai/detectgpt) — background tutorial on zero-shot AI-text detection methodology.
+Project documentation and metadata were inspected; examples were **not executed** during this curation. APSIM has custom terms: public source visibility does not imply unrestricted reuse.
+
+## Tutorials and Learning Resources
+
+The [learning pathway](tutorials/learning-resources.md) links seven authoritative resources: FAO-56, AquaCrop-OSPy notebooks, DeepXDE inverse-problem demos, do-mpc documentation, the ISMN reader, NASA POWER API guidance, and the Xarray tutorial. Each entry explains its purpose.
+
+## Modelling to Measurable Outcomes
+
+The [research workflow](docs/research-workflow.md) connects sensing, modelling, calibration, decisions, and evaluation.
+
+| Component | Observable or outcome |
+| --- | --- |
+| Water balance and Richards modelling | Storage changes, moisture by depth, drainage assumptions |
+| Calibration and assimilation | Held-out errors, identifiable parameters, uncertainty, analysis increments |
+| Physics-informed learning | Solution error, conservation, training and inference cost |
+| Irrigation decisions | Timing, depth, metered volume, constraint violations |
+| Agronomic value | Stress, yield or quality, water productivity, maintenance cost |
+
+The paper's assumed one-hectare example converts an 18 mm net addition at a 0.90 delivery fraction into 20 mm gross irrigation, or 200 m3. This is illustrative arithmetic, not a field result, irrigation recommendation, or proof of savings.
 
 ## Citation Integrity Audit
 
-This repository's reference list — including the AI-assisted paper's own citations — was independently checked for authenticity and claim-support accuracy: every title/author/year was confirmed against arXiv, DOI/Crossref, ACM DL, or JMIR before inclusion.
-[View Audit](citation-audit/Citation_Integrity_Audit.pdf)
+[Audit](citation-audit/Citation_Integrity_Audit.md) | [PDF audit](citation-audit/Citation_Integrity_Audit.pdf) | [Reference evidence](references/verification.md)
+
+The audit separates bibliographic checks, focused claim-support assessment, and arithmetic verification. Review evidence, numerical evidence, field cases, and proposed synthesis are distinguished. DOI existence alone does not prove claim support. Student full-text review remains necessary; no blanket human-verification claim is made.
+
+## Maintaining the Collection
+
+See [contribution rules](CONTRIBUTING.md). The bibliography is generated from [references.json](references/references.json); a [BibTeX export](references/references.bib) is included.
+
+```sh
+python3 scripts/build_catalog.py
+python3 scripts/check_repository.py
+```
+
+Optional maintenance: `python3 scripts/check_links.py` refreshes the external-link report; `python3 -m unittest discover -s scripts -p 'test_*.py'` runs the checker tests. To regenerate the PDF audit after editing its Markdown source, install ReportLab and run `python3 scripts/render_audit.py`, then visually review every page. The other scripts use Python's standard library. Python 3.9 or newer is required.
+
+The checker tests local links, counts, and assets, not scientific truth. [Remote link-check results](references/link-check.md) distinguish successful requests from blocked or inconclusive responses.
+
+## Assignment and Repository Status
+
+The local folder and Git remote retain the old repository name; no remote rename, commit, or push was performed. Suggested future name: **awesome-ai-digital-twins-smart-farming**.
+
+The [Assignment 2 checklist](docs/assignment-2-checklist.md) records remaining student actions: topic-change approval, independent source review, naming and description, and genuine commit history. Previous-topic PDFs are preserved in the [historical archive](archive/previous-topic/README.md) and do not count toward this collection.
 
 ## License
 
-Original content (this README, the audit, and the paper) is unlicensed. Linked external papers and resources remain under their own copyright/license.
+Original content remains **unlicensed**, as requested by the owner. See the [status notice](LICENSE). Linked research, data, and software retain their own terms. No third-party research-paper PDFs are included in the active collection.
