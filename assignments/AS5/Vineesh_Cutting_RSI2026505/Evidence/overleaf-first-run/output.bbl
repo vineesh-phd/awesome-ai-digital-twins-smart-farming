@@ -1,0 +1,145 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Verdouw et~al.(2021)Verdouw, Tekinerdogan, Beulens, and Wolfert]{R01}
+Cor Verdouw, Bedir Tekinerdogan, Adrie Beulens, and Sjaak Wolfert.
+\newblock {Digital twins in smart farming}.
+\newblock \emph{Agricultural Systems}, 189:\penalty0 103046, 2021.
+\newblock \doi{10.1016/j.agsy.2020.103046}.
+\newblock URL \url{https://doi.org/10.1016/j.agsy.2020.103046}.
+
+\bibitem[Pylianidis et~al.(2021)Pylianidis, Osinga, and Athanasiadis]{R02}
+Christos Pylianidis, Sjoukje Osinga, and Ioannis~N. Athanasiadis.
+\newblock {Introducing digital twins to agriculture}.
+\newblock \emph{Computers and Electronics in Agriculture}, 184:\penalty0 105942, 2021.
+\newblock \doi{10.1016/j.compag.2020.105942}.
+\newblock URL \url{https://doi.org/10.1016/j.compag.2020.105942}.
+
+\bibitem[Purcell and Neubauer(2023)]{R03}
+Warren Purcell and Thomas Neubauer.
+\newblock {Digital Twins in Agriculture: A State-of-the-art review}.
+\newblock \emph{Smart Agricultural Technology}, 3:\penalty0 100094, 2023.
+\newblock \doi{10.1016/j.atech.2022.100094}.
+\newblock URL \url{https://doi.org/10.1016/j.atech.2022.100094}.
+
+\bibitem[Morgan~Pereira et~al.(2026)Morgan~Pereira, Costa~Piazza, Usman, Santos Comelli~da Silveira, Cella~Ceriotti, de~Souza~Pazin, and Pignaton~de Freitas]{R04}
+Pedro~Henrique Morgan~Pereira, Giovana Costa~Piazza, Khalid Usman, Luan Santos Comelli~da Silveira, Vinícius Cella~Ceriotti, Yuri de~Souza~Pazin, and Edison Pignaton~de Freitas.
+\newblock {Digital twins in agriculture: A systematic literature review on modeling, semantics, and interoperability}.
+\newblock \emph{Smart Agricultural Technology}, 14:\penalty0 102283, 2026.
+\newblock \doi{10.1016/j.atech.2026.102283}.
+\newblock URL \url{https://doi.org/10.1016/j.atech.2026.102283}.
+
+\bibitem[Huang et~al.(2022)Huang, Liu, and Huang]{R18}
+Zhiyinan Huang, Jinfeng Liu, and Biao Huang.
+\newblock {Model predictive control of agro-hydrological systems based on a two-layer neural network modeling framework}.
+\newblock arXiv preprint arXiv:2204.12694, 2022.
+\newblock URL \url{https://doi.org/10.48550/arXiv.2204.12694}.
+
+\bibitem[Kritzinger et~al.(2018)Kritzinger, Karner, Traar, Henjes, and Sihn]{R05}
+Werner Kritzinger, Matthias Karner, Georg Traar, Jan Henjes, and Wilfried Sihn.
+\newblock {Digital Twin in manufacturing: A categorical literature review and classification}.
+\newblock \emph{IFAC-PapersOnLine}, 51\penalty0 (11):\penalty0 1016--1022, 2018.
+\newblock \doi{10.1016/j.ifacol.2018.08.474}.
+\newblock URL \url{https://doi.org/10.1016/j.ifacol.2018.08.474}.
+
+\bibitem[Allen et~al.(1998)Allen, Pereira, Raes, and Smith]{R06}
+Richard~G. Allen, Luis~S. Pereira, Dirk Raes, and Martin Smith.
+\newblock {Crop evapotranspiration: Guidelines for computing crop water requirements}.
+\newblock FAO Irrigation and Drainage Paper 56. Food and Agriculture Organization, Rome, 1998.
+\newblock URL \url{https://www.fao.org/4/x0490e/x0490e00.htm}.
+
+\bibitem[Richards(1931)]{R07}
+L.~A. Richards.
+\newblock {CAPILLARY CONDUCTION OF LIQUIDS THROUGH POROUS MEDIUMS}.
+\newblock \emph{Physics}, 1\penalty0 (5):\penalty0 318--333, 1931.
+\newblock \doi{10.1063/1.1745010}.
+\newblock URL \url{https://doi.org/10.1063/1.1745010}.
+
+\bibitem[van Genuchten(1980)]{R08}
+M.~Th. van Genuchten.
+\newblock {A Closed-form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils}.
+\newblock \emph{Soil Science Society of America Journal}, 44\penalty0 (5):\penalty0 892--898, 1980.
+\newblock \doi{10.2136/sssaj1980.03615995004400050002x}.
+\newblock URL \url{https://doi.org/10.2136/sssaj1980.03615995004400050002x}.
+
+\bibitem[Mualem(1976)]{R09}
+Yechezkel Mualem.
+\newblock {A new model for predicting the hydraulic conductivity of unsaturated porous media}.
+\newblock \emph{Water Resources Research}, 12\penalty0 (3):\penalty0 513--522, 1976.
+\newblock \doi{10.1029/wr012i003p00513}.
+\newblock URL \url{https://doi.org/10.1029/wr012i003p00513}.
+
+\bibitem[Holzworth et~al.(2014)Holzworth, Huth, deVoil, Zurcher, Herrmann, McLean, Chenu, van Oosterom, Snow, Murphy, Moore, Brown, Whish, Verrall, Fainges, Bell, Peake, Poulton, Hochman, Thorburn, Gaydon, Dalgliesh, Rodriguez, Cox, Chapman, Doherty, Teixeira, Sharp, Cichota, Vogeler, Li, Wang, Hammer, Robertson, Dimes, Whitbread, Hunt, van Rees, McClelland, Carberry, Hargreaves, MacLeod, McDonald, Harsdorf, Wedgwood, and Keating]{R10}
+Dean~P. Holzworth, Neil~I. Huth, Peter~G. deVoil, Eric~J. Zurcher, Neville~I. Herrmann, Greg McLean, Karine Chenu, Erik~J. van Oosterom, Val Snow, Chris Murphy, Andrew~D. Moore, Hamish Brown, Jeremy~P.M. Whish, Shaun Verrall, Justin Fainges, Lindsay~W. Bell, Allan~S. Peake, Perry~L. Poulton, Zvi Hochman, Peter~J. Thorburn, Donald~S. Gaydon, Neal~P. Dalgliesh, Daniel Rodriguez, Howard Cox, Scott Chapman, Alastair Doherty, Edmar Teixeira, Joanna Sharp, Rogerio Cichota, Iris Vogeler, Frank~Y. Li, Enli Wang, Graeme~L. Hammer, Michael~J. Robertson, John~P. Dimes, Anthony~M. Whitbread, James Hunt, Harm van Rees, Tim McClelland, Peter~S. Carberry, John~N.G. Hargreaves, Neil MacLeod, Cam McDonald, Justin Harsdorf, Sara Wedgwood, and Brian~A. Keating.
+\newblock {APSIM - Evolution towards a new generation of agricultural systems simulation}.
+\newblock \emph{Environmental Modelling \& Software}, 62:\penalty0 327--350, 2014.
+\newblock \doi{10.1016/j.envsoft.2014.07.009}.
+\newblock URL \url{https://doi.org/10.1016/j.envsoft.2014.07.009}.
+
+\bibitem[Steduto et~al.(2009)Steduto, Hsiao, Raes, and Fereres]{R11}
+Pasquale Steduto, Theodore~C. Hsiao, Dirk Raes, and Elias Fereres.
+\newblock {AquaCrop-The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles}.
+\newblock \emph{Agronomy Journal}, 101\penalty0 (3):\penalty0 426--437, 2009.
+\newblock \doi{10.2134/agronj2008.0139s}.
+\newblock URL \url{https://doi.org/10.2134/agronj2008.0139s}.
+
+\bibitem[Evensen(2003)]{R12}
+Geir Evensen.
+\newblock {The Ensemble Kalman Filter: theoretical formulation and practical implementation}.
+\newblock \emph{Ocean Dynamics}, 53\penalty0 (4):\penalty0 343--367, 2003.
+\newblock \doi{10.1007/s10236-003-0036-9}.
+\newblock URL \url{https://doi.org/10.1007/s10236-003-0036-9}.
+
+\bibitem[Raissi et~al.(2019)Raissi, Perdikaris, and Karniadakis]{R13}
+M.~Raissi, P.~Perdikaris, and G.E. Karniadakis.
+\newblock {Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}.
+\newblock \emph{Journal of Computational Physics}, 378:\penalty0 686--707, 2019.
+\newblock \doi{10.1016/j.jcp.2018.10.045}.
+\newblock URL \url{https://doi.org/10.1016/j.jcp.2018.10.045}.
+
+\bibitem[Karniadakis et~al.(2021)Karniadakis, Kevrekidis, Lu, Perdikaris, Wang, and Yang]{R14}
+George~Em Karniadakis, Ioannis~G. Kevrekidis, Lu~Lu, Paris Perdikaris, Sifan Wang, and Liu Yang.
+\newblock {Physics-informed machine learning}.
+\newblock \emph{Nature Reviews Physics}, 3\penalty0 (6):\penalty0 422--440, 2021.
+\newblock \doi{10.1038/s42254-021-00314-5}.
+\newblock URL \url{https://doi.org/10.1038/s42254-021-00314-5}.
+
+\bibitem[Bandai and Ghezzehei(2021)]{R15}
+Toshiyuki Bandai and Teamrat~A. Ghezzehei.
+\newblock {Physics-Informed Neural Networks With Monotonicity Constraints for Richardson-Richards Equation: Estimation of Constitutive Relationships and Soil Water Flux Density From Volumetric Water Content Measurements}.
+\newblock \emph{Water Resources Research}, 57\penalty0 (2):\penalty0 e2020WR027642, 2021.
+\newblock \doi{10.1029/2020wr027642}.
+\newblock URL \url{https://doi.org/10.1029/2020wr027642}.
+
+\bibitem[Bandai and Ghezzehei(2022)]{R16}
+Toshiyuki Bandai and Teamrat~A. Ghezzehei.
+\newblock {Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition}.
+\newblock \emph{Hydrology and Earth System Sciences}, 26\penalty0 (16):\penalty0 4469--4495, 2022.
+\newblock \doi{10.5194/hess-26-4469-2022}.
+\newblock URL \url{https://doi.org/10.5194/hess-26-4469-2022}.
+
+\bibitem[Krishnapriyan et~al.(2021)Krishnapriyan, Gholami, Zhe, Kirby, and Mahoney]{R17}
+Aditi Krishnapriyan, Amir Gholami, Shandian Zhe, Robert Kirby, and Michael~W. Mahoney.
+\newblock {Characterizing possible failure modes in physics-informed neural networks}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, volume~34, pages 26548--26560, 2021.
+\newblock URL \url{https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html}.
+
+\bibitem[Qin et~al.(2025)Qin, Zhang, Ma, Ma, Feng, Li, and Feng]{R19}
+Mengting Qin, Chuansong Zhang, Guorong Ma, Yongcheng Ma, Xiong Feng, Peijie Li, and Kepeng Feng.
+\newblock {Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems}.
+\newblock \emph{Agricultural Water Management}, 322:\penalty0 109957, 2025.
+\newblock \doi{10.1016/j.agwat.2025.109957}.
+\newblock URL \url{https://doi.org/10.1016/j.agwat.2025.109957}.
+
+\bibitem[Xu et~al.(2025)Xu, Zhu, and Ma]{R20}
+Demin Xu, Jinyu Zhu, and Yuntao Ma.
+\newblock {Advancing sustainable solar greenhouse management through digital twin enabled by functional-structural plant modeling: case study in Beijing, China}.
+\newblock \emph{Energy Conversion and Management}, 346:\penalty0 120505, 2025.
+\newblock \doi{10.1016/j.enconman.2025.120505}.
+\newblock URL \url{https://doi.org/10.1016/j.enconman.2025.120505}.
+
+\end{thebibliography}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-27",
+  "operator": "Codex, with explicit student permission",
+  "student_paragraph_choice": "Use Prism's revised paragraph",
+  "changed_source_files": [
+    "main.tex"
+  ],
+  "changed_paragraphs": 1,
+  "required_files_present": [
+    "Original_Paper.pdf",
+    "Prism_Final_Paper.pdf",
+    "Overleaf_Final_Paper.pdf",
+    "main.tex",
+    "references.bib",
+    "Figures/irrigation_digital_twin_architecture.png",
+    "Prompt_Log.pdf",
+    "Error_Log.pdf",
+    "Reflection.pdf",
+    "Verification_and_Comparison.pdf"
+  ],
+  "pdf_pages": {
+    "Original_Paper.pdf": 12,
+    "Prism_Final_Paper.pdf": 13,
+    "Overleaf_Final_Paper.pdf": 13,
+    "Prompt_Log.pdf": 3,
+    "Error_Log.pdf": 3,
+    "Reflection.pdf": 1,
+    "Verification_and_Comparison.pdf": 3
+  },
+  "reflection_words": 200,
+  "equations": 12,
+  "tables": 2,
+  "references": 20,
+  "final_overleaf_build": "1a0e146b5c2-6cbaafb194fe9b9a",
+  "visual_review": "All 13 pages of each final platform PDF and all report pages inspected; no clipping or overlap found.",
+  "remaining": "Student review of reflection, author metadata, scientific content and course AI-use rules; submission not performed."
+}

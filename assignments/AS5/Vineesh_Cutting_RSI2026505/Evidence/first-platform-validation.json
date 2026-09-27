@@ -1,0 +1,54 @@
+{
+  "page_counts": [
+    13,
+    13
+  ],
+  "normalized_page_text_equal": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "normalization": "Whitespace and Unicode variation selectors only",
+  "metadata": [
+    {
+      "/Producer": "pdfTeX-1.40.28",
+      "/Author": "",
+      "/Title": "",
+      "/Subject": "",
+      "/Creator": "OpenAI Prism",
+      "/Keywords": "",
+      "/CreationDate": "D:20260926145153Z",
+      "/ModDate": "D:20260926145153Z",
+      "/Trapped": "/False",
+      "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) kpathsea version 6.4.1"
+    },
+    {
+      "/Author": "",
+      "/CreationDate": "D:20260926150417Z",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "",
+      "/ModDate": "D:20260926150417Z",
+      "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) kpathsea version 6.4.2",
+      "/Producer": "pdfTeX-1.40.29",
+      "/Subject": "",
+      "/Title": "",
+      "/Trapped": "/False"
+    }
+  ],
+  "export_sha256": "299a434fb9ce561a4e7cbc8a6fc00908344b00709bdeeb7ded943ff1ad91c074",
+  "export_source_matches": {
+    "Figures/irrigation_digital_twin_architecture.png": true,
+    "main.tex": true,
+    "references.bib": true
+  }
+}

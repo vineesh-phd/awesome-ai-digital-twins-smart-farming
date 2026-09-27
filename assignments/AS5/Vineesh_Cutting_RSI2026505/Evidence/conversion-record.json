@@ -1,0 +1,295 @@
+{
+  "source_pdf_sha256": "805508709e1729f5f61704cb9adf20ab16f472b76cb3fba1d37125efca22ff98",
+  "source_docx_sha256": "e12fb3b60533891a1a080d37327aef38b6b05d3450ede1b3cf8637227651405e",
+  "source_figure_sha256": "686e5d793c04c06f9629b36b26c20417c1a108139fef995cce6a5356f4666a09",
+  "title": "The Convergence of Artificial Intelligence and Digital Twins for Smart Farming: A Critical Review of Architectures, Applications, and Research Directions",
+  "sections": [
+    [
+      "1",
+      "Introduction"
+    ],
+    [
+      "2",
+      "Review Approach and Evidence Boundaries"
+    ],
+    [
+      "3",
+      "Architectures for Agricultural Digital Twins"
+    ],
+    [
+      "3.1",
+      "From Digital Representation to Operational Feedback"
+    ],
+    [
+      "3.2",
+      "A Proposed Closed-Loop Architecture"
+    ],
+    [
+      "4",
+      "Governing Equations and Model Selection"
+    ],
+    [
+      "4.1",
+      "Root-Zone Water Balance"
+    ],
+    [
+      "4.2",
+      "Unsaturated Flow and Hydraulic Closure"
+    ],
+    [
+      "4.3",
+      "Crop Coupling and Appropriate Fidelity"
+    ],
+    [
+      "5",
+      "Calibration and Data Assimilation"
+    ],
+    [
+      "5.1",
+      "Estimating Parameters Without Confounding Errors"
+    ],
+    [
+      "5.2",
+      "Updating States During Operation"
+    ],
+    [
+      "6",
+      "Physics-Informed Learning"
+    ],
+    [
+      "6.1",
+      "Embedding Physical Constraints"
+    ],
+    [
+      "6.2",
+      "Failure Modes and Hybrid Alternatives"
+    ],
+    [
+      "7",
+      "Applications and the Strength of Current Evidence"
+    ],
+    [
+      "8",
+      "From Model Predictions to Measurable Decisions"
+    ],
+    [
+      "8.1",
+      "Constrained Irrigation Optimisation"
+    ],
+    [
+      "8.2",
+      "Illustrative Calculation"
+    ],
+    [
+      "8.3",
+      "Metrics and an Evaluation Protocol"
+    ],
+    [
+      "9",
+      "Research Directions and Deployment Constraints"
+    ],
+    [
+      "10",
+      "Conclusion"
+    ]
+  ],
+  "prose_blocks_converted": 62,
+  "equations": [
+    {
+      "index": 1,
+      "width": 400,
+      "height": 19,
+      "latex": "W_{t+1}=W_t+P_t+\\eta I_{g,t}+C_t-ET_{a,t}-R_t-D_t."
+    },
+    {
+      "index": 2,
+      "width": 354,
+      "height": 23,
+      "latex": "W=1000Z_r\\bar\\theta,\\qquad D_r=1000Z_r(\\theta_{FC}-\\bar\\theta)."
+    },
+    {
+      "index": 3,
+      "width": 426,
+      "height": 19,
+      "latex": "TAW=1000Z_r(\\theta_{FC}-\\theta_{WP}),\\qquad RAW=p\\,TAW."
+    },
+    {
+      "index": 4,
+      "width": 355,
+      "height": 46,
+      "latex": "\\frac{\\partial\\theta(h)}{\\partial t}=\\frac{\\partial}{\\partial z}\\left[K(h)\\left(\\frac{\\partial h}{\\partial z}+1\\right)\\right]-S_r(z,t)."
+    },
+    {
+      "index": 5,
+      "width": 486,
+      "height": 43,
+      "latex": "S_e=\\frac{\\theta-\\theta_r}{\\theta_s-\\theta_r}=\\left[1+(\\alpha|h|)^n\\right]^{-m},\\qquad m=1-\\frac{1}{n},\\quad h<0."
+    },
+    {
+      "index": 6,
+      "width": 300,
+      "height": 39,
+      "latex": "K(h)=K_{\\mathrm{sat}}S_e^{\\ell}\\left[1-\\left(1-S_e^{1/m}\\right)^m\\right]^2."
+    },
+    {
+      "index": 7,
+      "width": 486,
+      "height": 58,
+      "latex": "\\hat{\\boldsymbol\\beta}=\\arg\\min_{\\boldsymbol\\beta\\in\\mathcal B}\\left\\{\\sum_i\\left[\\frac{y_i-H_i(x_i(\\boldsymbol\\beta))}{\\sigma_i}\\right]^2+\\lambda_\\beta\\left\\|L(\\boldsymbol\\beta-\\boldsymbol\\beta_0)\\right\\|_2^2\\right\\}."
+    },
+    {
+      "index": 8,
+      "width": 491,
+      "height": 28,
+      "latex": "\\mathbf x^{a}=\\mathbf x^{f}+\\mathbf G(\\mathbf y-\\mathbf H\\mathbf x^{f}),\\qquad \\mathbf G=\\mathbf P^{f}\\mathbf H^{T}\\left(\\mathbf H\\mathbf P^{f}\\mathbf H^{T}+\\mathbf R\\right)^{-1}."
+    },
+    {
+      "index": 9,
+      "width": 366,
+      "height": 35,
+      "latex": "r_f(z,t)=\\partial_t\\theta(\\hat h)-\\partial_z\\left[K(\\hat h)(\\partial_z\\hat h+1)\\right]+S_r."
+    },
+    {
+      "index": 10,
+      "width": 364,
+      "height": 19,
+      "latex": "\\mathcal L=\\lambda_d\\mathcal L_d+\\lambda_f\\mathcal L_f+\\lambda_{ic}\\mathcal L_{ic}+\\lambda_{bc}\\mathcal L_{bc}+\\lambda_p\\mathcal L_p."
+    },
+    {
+      "index": 11,
+      "width": 390,
+      "height": 58,
+      "latex": "\\min_{u_{0:H-1}}\\sum_{k=1}^{H}\\left[a\\left(\\frac{u_{k-1}}{U_0}\\right)^2+b\\left(\\frac{s_k}{S_0}\\right)^2+c\\left(\\frac{d_k}{D_0}\\right)^2\\right]."
+    },
+    {
+      "index": 12,
+      "width": 583,
+      "height": 41,
+      "latex": "I_g=\\frac{30-12}{0.90}=20\\ \\mathrm{mm},\\qquad V=\\frac{I_g}{1000}A=200\\ \\mathrm{m^3},\\quad A=10{,}000\\ \\mathrm{m^2}."
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Study focus",
+        "Evidence level",
+        "Contribution",
+        "Limit of inference"
+      ],
+      [
+        "Architecture and adoption [1-3]",
+        "Conceptual synthesis and reviews",
+        "Management loops and integration pathways",
+        "Not a controlled estimate of water savings"
+      ],
+      [
+        "Interoperability [4]",
+        "Systematic review by the cited authors",
+        "Semantics and cross-asset integration gaps",
+        "A review-level finding, not a deployment test"
+      ],
+      [
+        "Soil-water PINNs [15,16]",
+        "Inverse modelling and numerical validation",
+        "Hydraulic inference and layered-soil modelling",
+        "Does not demonstrate seasonal farm benefits"
+      ],
+      [
+        "Irrigation control [18]",
+        "Numerical control study; preprint",
+        "Surrogate prediction and zone control",
+        "Requires independent field validation"
+      ],
+      [
+        "Water-salt management [19]",
+        "Reported physical irrigation-drainage deployment",
+        "Monitoring, forecasting, and operational integration",
+        "Site-specific and multi-component evidence"
+      ],
+      [
+        "Greenhouse management [20]",
+        "Greenhouse case study",
+        "Canopy and environmental model integration",
+        "Transfer to open fields is not established"
+      ]
+    ],
+    [
+      [
+        "Outcome",
+        "Metric or unit",
+        "Interpretation requirement"
+      ],
+      [
+        "Moisture prediction",
+        "RMSE and bias in volumetric water content, by depth and horizon",
+        "Independent observations and event-level holdouts"
+      ],
+      [
+        "State uncertainty",
+        "Interval coverage and width; threshold exceedance reliability",
+        "Coverage alone can reward uninformative intervals"
+      ],
+      [
+        "Water accounting",
+        "Storage change minus net physical inflow, in mm",
+        "Report assimilation increments separately"
+      ],
+      [
+        "Irrigation delivery",
+        "Metered gross depth (mm) and volume (m³)",
+        "Define field area, meter location, and evaluation period"
+      ],
+      [
+        "Consumptive use",
+        "Actual evapotranspiration (mm), measured or independently estimated",
+        "Do not equate it with water pumped or applied"
+      ],
+      [
+        "Agronomic response",
+        "Marketable yield (kg/ha), quality, and stress exposure",
+        "Use an appropriate replicated comparator"
+      ],
+      [
+        "Water productivity",
+        "Yield / applied irrigation, or yield / actual ET (kg/m³)",
+        "State the denominator; these are different measures"
+      ],
+      [
+        "Operational value",
+        "Missed actions, uptime, costs, and operator effort",
+        "Include installation, maintenance, and failure recovery"
+      ]
+    ]
+  ],
+  "references": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R20"
+  ],
+  "additions": [
+    "Author and affiliation from existing AS5 records; absent from original smart-farming PDF.",
+    "Navigation sentence referring to the Introduction; no scientific claims added."
+  ],
+  "platform_status": {
+    "local": "compiled with Tectonic 0.17.0; 24 preservation/build checks passed; all 13 pages visually reviewed",
+    "Prism": "pending",
+    "Overleaf": "pending"
+  }
+}

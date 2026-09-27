@@ -1,0 +1,11 @@
+--- first/main.tex
++++ final/main.tex
+@@ -169,7 +169,7 @@
+ 
+ \label{sec:5-1}
+ 
+-Calibration estimates model parameters, whereas data assimilation updates the estimated system state as observations arrive. Sensor calibration is a separate measurement problem. These three activities should be documented independently: an apparently successful hydraulic calibration can otherwise compensate for a biased sensor, incorrect irrigation input, or unmodelled water-table influence.
++Model calibration estimates model parameters, data assimilation updates the estimated system state as observations become available, and sensor calibration addresses measurement accuracy. These three activities should be documented separately; otherwise, an apparently successful hydraulic calibration may compensate for sensor bias, incorrect irrigation inputs, or unmodelled water-table influence.
+ 
+ Let $\beta$ denote physical parameters and $y_{i}$ an observation with uncertainty scale $\sigma_{i}$. A regularised calibration objective can be written as:
+ 

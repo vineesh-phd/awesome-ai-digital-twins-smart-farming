@@ -125,7 +125,17 @@ The checker tests local links, counts, and assets, not scientific truth. [Remote
 
 ## Assignment
 
+### Assignment 2
+
 This repository supports Assignment 2, **Create Your Own Awesome Research Repository on GitHub**, for the subject **AI Tools for Research**. The [Assignment 2 checklist](docs/assignment-2-checklist.md) maps the required paper, citation audit, bibliography, datasets, tools, implementations, and learning resources to the repository contents. Independent source review, an appropriate repository description, meaningful commit history, and final submission checks remain part of the assignment workflow.
+
+### Assignment 5
+
+**Scientific Writing Using Prism and LaTeX:** the smart-farming paper has been converted into a locally compiled LaTeX manuscript without removing any existing scientific section or extra content. The conversion retains 12 equations, both tables, the original figure, and all 20 manuscript references; it adds editable mathematics, BibTeX citations, and working section, equation, table, and figure cross-references.
+
+The [Assignment 5 package](assignments/AS5/Vineesh_Cutting_RSI2026505/README.md) contains the original paper, `main.tex`, `references.bib`, `Figures/`, genuine Prism and Overleaf PDFs, the unchanged Prism export, first-run compiler evidence, actual prompt and error logs, an A/B/C paragraph comparison, and a 200-word reflection draft. See the [Assignment 5 checklist](docs/assignment-5-checklist.md) for the assessment and evidence.
+
+**Status: platform activities completed; final student review remains.** Six actual Prism tasks and a revision follow-up are documented. The unchanged initial Prism export compiled in Overleaf on its first attempt without source corrections. The student approved Prism's calibration-paragraph revision on 27 September 2026; it is included in the final manuscript, while the initial evidence is retained separately. Codex operated the platforms with permission. The student should review the reflection, author details, scientific content, and course AI-use requirements before submission.
 
 ## Repository Status
 
