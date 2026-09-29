@@ -1,0 +1,182 @@
+chktex exit: 0
+Rc files read (in order):
+  /usr/local/share/latexmk/LatexMk
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+Latexmk: Changing directory to '/compile/'
+Force *latex to be remade.
+------------
+Running 'internal overleaf_pre_process "main.tex" "output.pdf"'
+------------
+Latexmk: calling overleaf_pre_process( "main.tex" "output.pdf" )
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'go_mode=3'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder --jobname="output"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'output.log'
+Latexmk: Examining 'output.fls'
+Latexmk: Examining 'output.log'
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'output.pdf'
+  ===Source file 'output.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex output'...
+Rule 'bibtex output':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+
+------------
+Run number 1 of rule 'bibtex output'
+------------
+------------
+Running 'bibtex  "output.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026)
+The top-level auxiliary file: output.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: references.bib
+Warning--empty publisher in R17
+Warning--empty address in R17
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+  output.bbl
+  output.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder --jobname="output"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'output.log'
+Latexmk: Examining 'output.fls'
+Latexmk: Examining 'output.log'
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'output.pdf'
+  ===Source file 'output.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex output'...
+Rule 'bibtex output':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+
+------------
+Run number 2 of rule 'bibtex output'
+------------
+------------
+Running 'bibtex  "output.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026)
+The top-level auxiliary file: output.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: references.bib
+Warning--empty publisher in R17
+Warning--empty address in R17
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder --jobname="output"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'output.log'
+Latexmk: Examining 'output.fls'
+Latexmk: Examining 'output.log'
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'output.pdf'
+  ===Source file 'output.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex output'...
+Rule 'bibtex output':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+
+------------
+Run number 3 of rule 'bibtex output'
+------------
+------------
+Running 'bibtex  "output.aux"'
+------------
+This is BibTeX, Version 0.99e (TeX Live 2026)
+The top-level auxiliary file: output.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: references.bib
+Warning--empty publisher in R17
+Warning--empty address in R17
+(There were 2 warnings)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  output.aux
+
+------------
+Run number 4 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=batchmode -recorder --jobname="output"  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'output.log'
+Latexmk: Examining 'output.fls'
+Latexmk: Examining 'output.log'
+Latexmk: Found input bbl file 'output.bbl'
+Latexmk: Log file says output to 'output.pdf'
+  ===Source file 'output.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: All targets (output.pdf) are up-to-date
+------------
+Running 'internal overleaf_post_process "main.tex" "output.pdf"'
+------------
+Latexmk: calling overleaf_post_process( "main.tex" "output.pdf" )
+qpdf exit code=0
+Renaming optimised file to output.pdf
+Extracting xref table for output.pdf
+qpdf --show-xref exit code=0
+Latexmk: Undoing directory change
+'pdflatex': time = 1.38
+'bibtex output': time = 0.09
+'pdflatex': time = 1.24
+'bibtex output': time = 0.08
+'pdflatex': time = 1.09
+'bibtex output': time = 0.08
+'pdflatex': time = 1.34
+Processing time = 6.42, of which invoked processes = 5.3, other = 1.12.
+Elapsed clock time = 8.06.
+Number of rules run = 7
+

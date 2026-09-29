@@ -137,6 +137,12 @@ The [Assignment 5 package](assignments/AS5/Vineesh_Cutting_RSI2026505/README.md)
 
 **Status: platform activities completed; final student review remains.** Six actual Prism tasks and a revision follow-up are documented. The unchanged initial Prism export compiled in Overleaf on its first attempt without source corrections. The student approved Prism's calibration-paragraph revision on 27 September 2026; it is included in the final manuscript, while the initial evidence is retained separately. Codex operated the platforms with permission. The student should review the reflection, author details, scientific content, and course AI-use requirements before submission.
 
+### Assignment 6
+
+**Review Paper Writing and Formatting Using LaTeX and Overleaf:** the paper has been developed using the official ACM small-format template in a separate Overleaf project. The revision strengthens the introduction, literature synthesis, methods/data comparison, research gaps, and conclusion while retaining the original technical content and approved calibration paragraph.
+
+**Status: manuscript and platform activities completed; final student review remains.** The verified 16-page Overleaf PDF contains 3 figures, 5 tables, 12 equations, and 20 BibTeX references. All figures, tables, and equations are cross-referenced. The [Assignment 6 package](assignments/AS6/Vineesh_Cutting_RSI2026505_AS6/README.md) includes the paper PDF, clean source ZIP, editable files, and genuine compiler/source evidence. See the [Assignment 6 checklist](docs/assignment-6-checklist.md) for coverage and remaining non-fatal bibliography warnings. Nothing has been submitted to Classroom or ACM.
+
 ## Repository Status
 
 The repository has been renamed from **awesome-llm-academic-writing** to **awesome-ai-digital-twins-smart-farming**, both in the local Mac folder and on GitHub. The smart-farming update has been pushed to GitHub.

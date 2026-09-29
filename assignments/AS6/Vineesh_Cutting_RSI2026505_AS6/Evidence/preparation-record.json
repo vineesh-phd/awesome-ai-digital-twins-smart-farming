@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-28",
+  "base_manuscript": "AS5 approved final main.tex",
+  "base_sha256": "430106a05b4a0662966ee145290d031cc7c47d71ed51dd78f86d0197c7f37759",
+  "template_url": "https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-small-standard-format-template/sksvmbxyfhnw",
+  "overleaf_project": "https://www.overleaf.com/project/6ab96bb19ede0f3877019950",
+  "template_action": "Opened as Template in Safari; downloaded complete unchanged sources before editing",
+  "class_version": "2.19, dated 2026/06/27 in downloaded acmart.cls",
+  "format": "acmsmall, screen, nonacm; classroom copy without publication-rights assertions",
+  "retained": "All prior numbered main sections, technical equations, table cells, architecture figure, references, and student-approved paragraph",
+  "additions": [
+    "Introduction positioning and roadmap",
+    "Extraction criteria",
+    "Four-axis taxonomy",
+    "Methods/data and findings/limitations comparison",
+    "Evaluation flowchart",
+    "Testable research-gap table",
+    "Governance discussion",
+    "Question-linked conclusion"
+  ]
+}

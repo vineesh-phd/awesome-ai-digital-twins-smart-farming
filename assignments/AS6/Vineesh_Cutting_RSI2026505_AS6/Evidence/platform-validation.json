@@ -1,0 +1,51 @@
+{
+  "checked_on": "2026-09-28",
+  "project_url": "https://www.overleaf.com/project/6ab96bb19ede0f3877019950",
+  "compiler": "pdfLaTeX / TeX Live 2026",
+  "main_document": "main.tex",
+  "build_id": "1a0e5e30c2e-06c657973235e932",
+  "pdf_pages": 16,
+  "pdf_sha256": "90c45f3c7b79a08948298c07702075bdc543186caae06058c6dfb739d2badc9e",
+  "compiler_errors": 0,
+  "overfull_boxes": 0,
+  "unresolved_references_or_citations": 0,
+  "bibtex_warnings": [
+    "Warning--empty publisher in R17",
+    "Warning--empty address in R17"
+  ],
+  "underfull_vertical_boxes": 2,
+  "all_source_labels_present_in_platform_aux": true,
+  "both_original_table_bodies_retained": true,
+  "visual_review": "All 16 final Overleaf pages rendered and inspected; no clipped tables, overlapping text, missing diagrams, or unresolved cross-references observed.",
+  "files": {
+    "main.tex": {
+      "sha256": "f39868d6386b54431df34c6f9eabe3b1afbb4e49155cf33ad8f4b6b88d2c087a",
+      "overleaf_export_identical": true
+    },
+    "references.bib": {
+      "sha256": "93321c2c93c4dab49845a202794cf4557aadc783a70b2dfb0d2bb8ceb607b90d",
+      "overleaf_export_identical": true
+    },
+    "acmart.cls": {
+      "sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+      "overleaf_export_identical": true
+    },
+    "ACM-Reference-Format.bst": {
+      "sha256": "8ec002c927068bfc5b3cfe71b66aa4767b9e485530ac3c67ba5c064df4c2e6ac",
+      "overleaf_export_identical": true
+    },
+    "Figures/evaluation_flow.png": {
+      "sha256": "5a86ab883a9c77e5528ebf952d23fbf8d0b45df71686213989137e239165f502",
+      "overleaf_export_identical": true
+    },
+    "Figures/irrigation_digital_twin_architecture.png": {
+      "sha256": "686e5d793c04c06f9629b36b26c20417c1a108139fef995cce6a5356f4666a09",
+      "overleaf_export_identical": true
+    },
+    "Figures/taxonomy.png": {
+      "sha256": "2d17ade88a532ea1dffcaa98f895175d8a9edf32445ff8adc753daa9129642bb",
+      "overleaf_export_identical": true
+    }
+  },
+  "submission_status": "Not submitted to Classroom or ACM; author scientific review remains."
+}

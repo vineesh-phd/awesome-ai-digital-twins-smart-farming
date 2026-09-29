@@ -1,0 +1,225 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{20}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Allen et~al\mbox{.}(1998)]%
+        {R06}
+\bibfield{author}{\bibinfo{person}{Richard~G. Allen}, \bibinfo{person}{Luis~S. Pereira}, \bibinfo{person}{Dirk Raes}, {and} \bibinfo{person}{Martin Smith}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{title}{{Crop evapotranspiration: Guidelines for computing crop water requirements}}.
+\newblock \bibinfo{howpublished}{FAO Irrigation and Drainage Paper 56. Food and Agriculture Organization, Rome}.
+\newblock
+\urldef\tempurl%
+\url{https://www.fao.org/4/x0490e/x0490e00.htm}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bandai and Ghezzehei(2021)]%
+        {R15}
+\bibfield{author}{\bibinfo{person}{Toshiyuki Bandai} {and} \bibinfo{person}{Teamrat~A. Ghezzehei}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Physics-Informed Neural Networks With Monotonicity Constraints for Richardson-Richards Equation: Estimation of Constitutive Relationships and Soil Water Flux Density From Volumetric Water Content Measurements}}.
+\newblock \bibinfo{journal}{\emph{Water Resources Research}} \bibinfo{volume}{57}, \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{e2020WR027642}.
+\newblock
+\href{https://doi.org/10.1029/2020wr027642}{doi:\nolinkurl{10.1029/2020wr027642}}
+
+
+\bibitem[Bandai and Ghezzehei(2022)]%
+        {R16}
+\bibfield{author}{\bibinfo{person}{Toshiyuki Bandai} {and} \bibinfo{person}{Teamrat~A. Ghezzehei}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition}}.
+\newblock \bibinfo{journal}{\emph{Hydrology and Earth System Sciences}} \bibinfo{volume}{26}, \bibinfo{number}{16} (\bibinfo{year}{2022}), \bibinfo{pages}{4469--4495}.
+\newblock
+\href{https://doi.org/10.5194/hess-26-4469-2022}{doi:\nolinkurl{10.5194/hess-26-4469-2022}}
+
+
+\bibitem[Evensen(2003)]%
+        {R12}
+\bibfield{author}{\bibinfo{person}{Geir Evensen}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{{The Ensemble Kalman Filter: theoretical formulation and practical implementation}}.
+\newblock \bibinfo{journal}{\emph{Ocean Dynamics}} \bibinfo{volume}{53}, \bibinfo{number}{4} (\bibinfo{year}{2003}), \bibinfo{pages}{343--367}.
+\newblock
+\href{https://doi.org/10.1007/s10236-003-0036-9}{doi:\nolinkurl{10.1007/s10236-003-0036-9}}
+
+
+\bibitem[Holzworth et~al\mbox{.}(2014)]%
+        {R10}
+\bibfield{author}{\bibinfo{person}{Dean~P. Holzworth}, \bibinfo{person}{Neil~I. Huth}, \bibinfo{person}{Peter~G. deVoil}, \bibinfo{person}{Eric~J. Zurcher}, \bibinfo{person}{Neville~I. Herrmann}, \bibinfo{person}{Greg McLean}, \bibinfo{person}{Karine Chenu}, \bibinfo{person}{Erik~J. van Oosterom}, \bibinfo{person}{Val Snow}, \bibinfo{person}{Chris Murphy}, \bibinfo{person}{Andrew~D. Moore}, \bibinfo{person}{Hamish Brown}, \bibinfo{person}{Jeremy~P.M. Whish}, \bibinfo{person}{Shaun Verrall}, \bibinfo{person}{Justin Fainges}, \bibinfo{person}{Lindsay~W. Bell}, \bibinfo{person}{Allan~S. Peake}, \bibinfo{person}{Perry~L. Poulton}, \bibinfo{person}{Zvi Hochman}, \bibinfo{person}{Peter~J. Thorburn}, \bibinfo{person}{Donald~S. Gaydon}, \bibinfo{person}{Neal~P. Dalgliesh}, \bibinfo{person}{Daniel Rodriguez}, \bibinfo{person}{Howard Cox}, \bibinfo{person}{Scott Chapman}, \bibinfo{person}{Alastair Doherty}, \bibinfo{person}{Edmar Teixeira}, \bibinfo{person}{Joanna Sharp}, \bibinfo{person}{Rogerio Cichota},
+  \bibinfo{person}{Iris Vogeler}, \bibinfo{person}{Frank~Y. Li}, \bibinfo{person}{Enli Wang}, \bibinfo{person}{Graeme~L. Hammer}, \bibinfo{person}{Michael~J. Robertson}, \bibinfo{person}{John~P. Dimes}, \bibinfo{person}{Anthony~M. Whitbread}, \bibinfo{person}{James Hunt}, \bibinfo{person}{Harm van Rees}, \bibinfo{person}{Tim McClelland}, \bibinfo{person}{Peter~S. Carberry}, \bibinfo{person}{John~N.G. Hargreaves}, \bibinfo{person}{Neil MacLeod}, \bibinfo{person}{Cam McDonald}, \bibinfo{person}{Justin Harsdorf}, \bibinfo{person}{Sara Wedgwood}, {and} \bibinfo{person}{Brian~A. Keating}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{{APSIM - Evolution towards a new generation of agricultural systems simulation}}.
+\newblock \bibinfo{journal}{\emph{Environmental Modelling \& Software}}  \bibinfo{volume}{62} (\bibinfo{year}{2014}), \bibinfo{pages}{327--350}.
+\newblock
+\href{https://doi.org/10.1016/j.envsoft.2014.07.009}{doi:\nolinkurl{10.1016/j.envsoft.2014.07.009}}
+
+
+\bibitem[Huang et~al\mbox{.}(2022)]%
+        {R18}
+\bibfield{author}{\bibinfo{person}{Zhiyinan Huang}, \bibinfo{person}{Jinfeng Liu}, {and} \bibinfo{person}{Biao Huang}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{{Model predictive control of agro-hydrological systems based on a two-layer neural network modeling framework}}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2204.12694}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2204.12694}{doi:\nolinkurl{10.48550/arXiv.2204.12694}}
+
+
+\bibitem[Karniadakis et~al\mbox{.}(2021)]%
+        {R14}
+\bibfield{author}{\bibinfo{person}{George~Em Karniadakis}, \bibinfo{person}{Ioannis~G. Kevrekidis}, \bibinfo{person}{Lu Lu}, \bibinfo{person}{Paris Perdikaris}, \bibinfo{person}{Sifan Wang}, {and} \bibinfo{person}{Liu Yang}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Physics-informed machine learning}}.
+\newblock \bibinfo{journal}{\emph{Nature Reviews Physics}} \bibinfo{volume}{3}, \bibinfo{number}{6} (\bibinfo{year}{2021}), \bibinfo{pages}{422--440}.
+\newblock
+\href{https://doi.org/10.1038/s42254-021-00314-5}{doi:\nolinkurl{10.1038/s42254-021-00314-5}}
+
+
+\bibitem[Krishnapriyan et~al\mbox{.}(2021)]%
+        {R17}
+\bibfield{author}{\bibinfo{person}{Aditi Krishnapriyan}, \bibinfo{person}{Amir Gholami}, \bibinfo{person}{Shandian Zhe}, \bibinfo{person}{Robert Kirby}, {and} \bibinfo{person}{Michael~W. Mahoney}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Characterizing possible failure modes in physics-informed neural networks}}. In \bibinfo{booktitle}{\emph{Advances in Neural Information Processing Systems}}, Vol.~\bibinfo{volume}{34}. \bibinfo{pages}{26548--26560}.
+\newblock
+\urldef\tempurl%
+\url{https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kritzinger et~al\mbox{.}(2018)]%
+        {R05}
+\bibfield{author}{\bibinfo{person}{Werner Kritzinger}, \bibinfo{person}{Matthias Karner}, \bibinfo{person}{Georg Traar}, \bibinfo{person}{Jan Henjes}, {and} \bibinfo{person}{Wilfried Sihn}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{{Digital Twin in manufacturing: A categorical literature review and classification}}.
+\newblock \bibinfo{journal}{\emph{IFAC-PapersOnLine}} \bibinfo{volume}{51}, \bibinfo{number}{11} (\bibinfo{year}{2018}), \bibinfo{pages}{1016--1022}.
+\newblock
+\href{https://doi.org/10.1016/j.ifacol.2018.08.474}{doi:\nolinkurl{10.1016/j.ifacol.2018.08.474}}
+
+
+\bibitem[Morgan~Pereira et~al\mbox{.}(2026)]%
+        {R04}
+\bibfield{author}{\bibinfo{person}{Pedro~Henrique Morgan~Pereira}, \bibinfo{person}{Giovana Costa~Piazza}, \bibinfo{person}{Khalid Usman}, \bibinfo{person}{Luan Santos Comelli~da Silveira}, \bibinfo{person}{Vinícius Cella~Ceriotti}, \bibinfo{person}{Yuri de Souza~Pazin}, {and} \bibinfo{person}{Edison Pignaton~de Freitas}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{Digital twins in agriculture: A systematic literature review on modeling, semantics, and interoperability}}.
+\newblock \bibinfo{journal}{\emph{Smart Agricultural Technology}}  \bibinfo{volume}{14} (\bibinfo{year}{2026}), \bibinfo{pages}{102283}.
+\newblock
+\href{https://doi.org/10.1016/j.atech.2026.102283}{doi:\nolinkurl{10.1016/j.atech.2026.102283}}
+
+
+\bibitem[Mualem(1976)]%
+        {R09}
+\bibfield{author}{\bibinfo{person}{Yechezkel Mualem}.} \bibinfo{year}{1976}\natexlab{}.
+\newblock \showarticletitle{{A new model for predicting the hydraulic conductivity of unsaturated porous media}}.
+\newblock \bibinfo{journal}{\emph{Water Resources Research}} \bibinfo{volume}{12}, \bibinfo{number}{3} (\bibinfo{year}{1976}), \bibinfo{pages}{513--522}.
+\newblock
+\href{https://doi.org/10.1029/wr012i003p00513}{doi:\nolinkurl{10.1029/wr012i003p00513}}
+
+
+\bibitem[Purcell and Neubauer(2023)]%
+        {R03}
+\bibfield{author}{\bibinfo{person}{Warren Purcell} {and} \bibinfo{person}{Thomas Neubauer}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{Digital Twins in Agriculture: A State-of-the-art review}}.
+\newblock \bibinfo{journal}{\emph{Smart Agricultural Technology}}  \bibinfo{volume}{3} (\bibinfo{year}{2023}), \bibinfo{pages}{100094}.
+\newblock
+\href{https://doi.org/10.1016/j.atech.2022.100094}{doi:\nolinkurl{10.1016/j.atech.2022.100094}}
+
+
+\bibitem[Pylianidis et~al\mbox{.}(2021)]%
+        {R02}
+\bibfield{author}{\bibinfo{person}{Christos Pylianidis}, \bibinfo{person}{Sjoukje Osinga}, {and} \bibinfo{person}{Ioannis~N. Athanasiadis}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Introducing digital twins to agriculture}}.
+\newblock \bibinfo{journal}{\emph{Computers and Electronics in Agriculture}}  \bibinfo{volume}{184} (\bibinfo{year}{2021}), \bibinfo{pages}{105942}.
+\newblock
+\href{https://doi.org/10.1016/j.compag.2020.105942}{doi:\nolinkurl{10.1016/j.compag.2020.105942}}
+
+
+\bibitem[Qin et~al\mbox{.}(2025)]%
+        {R19}
+\bibfield{author}{\bibinfo{person}{Mengting Qin}, \bibinfo{person}{Chuansong Zhang}, \bibinfo{person}{Guorong Ma}, \bibinfo{person}{Yongcheng Ma}, \bibinfo{person}{Xiong Feng}, \bibinfo{person}{Peijie Li}, {and} \bibinfo{person}{Kepeng Feng}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems}}.
+\newblock \bibinfo{journal}{\emph{Agricultural Water Management}}  \bibinfo{volume}{322} (\bibinfo{year}{2025}), \bibinfo{pages}{109957}.
+\newblock
+\href{https://doi.org/10.1016/j.agwat.2025.109957}{doi:\nolinkurl{10.1016/j.agwat.2025.109957}}
+
+
+\bibitem[Raissi et~al\mbox{.}(2019)]%
+        {R13}
+\bibfield{author}{\bibinfo{person}{M. Raissi}, \bibinfo{person}{P. Perdikaris}, {and} \bibinfo{person}{G.E. Karniadakis}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}}.
+\newblock \bibinfo{journal}{\emph{J. Comput. Phys.}}  \bibinfo{volume}{378} (\bibinfo{year}{2019}), \bibinfo{pages}{686--707}.
+\newblock
+\href{https://doi.org/10.1016/j.jcp.2018.10.045}{doi:\nolinkurl{10.1016/j.jcp.2018.10.045}}
+
+
+\bibitem[Richards(1931)]%
+        {R07}
+\bibfield{author}{\bibinfo{person}{L.~A. Richards}.} \bibinfo{year}{1931}\natexlab{}.
+\newblock \showarticletitle{{CAPILLARY CONDUCTION OF LIQUIDS THROUGH POROUS MEDIUMS}}.
+\newblock \bibinfo{journal}{\emph{Physics}} \bibinfo{volume}{1}, \bibinfo{number}{5} (\bibinfo{year}{1931}), \bibinfo{pages}{318--333}.
+\newblock
+\href{https://doi.org/10.1063/1.1745010}{doi:\nolinkurl{10.1063/1.1745010}}
+
+
+\bibitem[Steduto et~al\mbox{.}(2009)]%
+        {R11}
+\bibfield{author}{\bibinfo{person}{Pasquale Steduto}, \bibinfo{person}{Theodore~C. Hsiao}, \bibinfo{person}{Dirk Raes}, {and} \bibinfo{person}{Elias Fereres}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{{AquaCrop-The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles}}.
+\newblock \bibinfo{journal}{\emph{Agronomy Journal}} \bibinfo{volume}{101}, \bibinfo{number}{3} (\bibinfo{year}{2009}), \bibinfo{pages}{426--437}.
+\newblock
+\href{https://doi.org/10.2134/agronj2008.0139s}{doi:\nolinkurl{10.2134/agronj2008.0139s}}
+
+
+\bibitem[van Genuchten(1980)]%
+        {R08}
+\bibfield{author}{\bibinfo{person}{M.~Th. van Genuchten}.} \bibinfo{year}{1980}\natexlab{}.
+\newblock \showarticletitle{{A Closed-form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils}}.
+\newblock \bibinfo{journal}{\emph{Soil Science Society of America Journal}} \bibinfo{volume}{44}, \bibinfo{number}{5} (\bibinfo{year}{1980}), \bibinfo{pages}{892--898}.
+\newblock
+\href{https://doi.org/10.2136/sssaj1980.03615995004400050002x}{doi:\nolinkurl{10.2136/sssaj1980.03615995004400050002x}}
+
+
+\bibitem[Verdouw et~al\mbox{.}(2021)]%
+        {R01}
+\bibfield{author}{\bibinfo{person}{Cor Verdouw}, \bibinfo{person}{Bedir Tekinerdogan}, \bibinfo{person}{Adrie Beulens}, {and} \bibinfo{person}{Sjaak Wolfert}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{Digital twins in smart farming}}.
+\newblock \bibinfo{journal}{\emph{Agricultural Systems}}  \bibinfo{volume}{189} (\bibinfo{year}{2021}), \bibinfo{pages}{103046}.
+\newblock
+\href{https://doi.org/10.1016/j.agsy.2020.103046}{doi:\nolinkurl{10.1016/j.agsy.2020.103046}}
+
+
+\bibitem[Xu et~al\mbox{.}(2025)]%
+        {R20}
+\bibfield{author}{\bibinfo{person}{Demin Xu}, \bibinfo{person}{Jinyu Zhu}, {and} \bibinfo{person}{Yuntao Ma}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{Advancing sustainable solar greenhouse management through digital twin enabled by functional-structural plant modeling: case study in Beijing, China}}.
+\newblock \bibinfo{journal}{\emph{Energy Conversion and Management}}  \bibinfo{volume}{346} (\bibinfo{year}{2025}), \bibinfo{pages}{120505}.
+\newblock
+\href{https://doi.org/10.1016/j.enconman.2025.120505}{doi:\nolinkurl{10.1016/j.enconman.2025.120505}}
+
+
+\end{thebibliography}

@@ -1,0 +1,353 @@
+{
+  "checked_on": "2026-09-28",
+  "scope": "Bibliographic existence only, not a full scientific claim audit or a replication. Non-DOI records retain their explicitly dated original verification.",
+  "records": [
+    {
+      "id": "R01",
+      "expected_title": "Digital twins in smart farming",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.agsy.2020.103046",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.agsy.2020.103046",
+      "resolved_title": [
+        "Digital twins in smart farming"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2021,
+          4
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R02",
+      "expected_title": "Introducing digital twins to agriculture",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.compag.2020.105942",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.compag.2020.105942",
+      "resolved_title": [
+        "Introducing digital twins to agriculture"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2021,
+          5
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R03",
+      "expected_title": "Digital Twins in Agriculture: A State-of-the-art review",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.atech.2022.100094",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.atech.2022.100094",
+      "resolved_title": [
+        "Digital Twins in Agriculture: A State-of-the-art review"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2023,
+          2
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R04",
+      "expected_title": "Digital twins in agriculture: A systematic literature review on modeling, semantics, and interoperability",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.atech.2026.102283",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.atech.2026.102283",
+      "resolved_title": [
+        "Digital twins in agriculture: A systematic literature review on modeling, semantics, and interoperability"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2026,
+          8
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R05",
+      "expected_title": "Digital Twin in manufacturing: A categorical literature review and classification",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.ifacol.2018.08.474",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.ifacol.2018.08.474",
+      "resolved_title": [
+        "Digital Twin in manufacturing: A categorical literature review and classification"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2018
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R06",
+      "expected_title": "Crop evapotranspiration: Guidelines for computing crop water requirements",
+      "kind": "technical-guide",
+      "primary_source": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "status": "Identity documented in inherited primary-source record; no Crossref DOI assigned here"
+    },
+    {
+      "id": "R07",
+      "expected_title": "CAPILLARY CONDUCTION OF LIQUIDS THROUGH POROUS MEDIUMS",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1063/1.1745010",
+      "http_status": 200,
+      "resolved_doi": "10.1063/1.1745010",
+      "resolved_title": [
+        "CAPILLARY CONDUCTION OF LIQUIDS THROUGH POROUS MEDIUMS"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          1931,
+          11,
+          1
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R08",
+      "expected_title": "A Closed-form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.2136/sssaj1980.03615995004400050002x",
+      "http_status": 200,
+      "resolved_doi": "10.2136/sssaj1980.03615995004400050002x",
+      "resolved_title": [
+        "A Closed\u2010form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          1980,
+          9
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R09",
+      "expected_title": "A new model for predicting the hydraulic conductivity of unsaturated porous media",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1029/wr012i003p00513",
+      "http_status": 200,
+      "resolved_doi": "10.1029/wr012i003p00513",
+      "resolved_title": [
+        "A new model for predicting the hydraulic conductivity of unsaturated porous media"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          1976,
+          6
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R10",
+      "expected_title": "APSIM - Evolution towards a new generation of agricultural systems simulation",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.envsoft.2014.07.009",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.envsoft.2014.07.009",
+      "resolved_title": [
+        "APSIM \u2013 Evolution towards a new generation of agricultural systems simulation"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2014,
+          12
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R11",
+      "expected_title": "AquaCrop-The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.2134/agronj2008.0139s",
+      "http_status": 200,
+      "resolved_doi": "10.2134/agronj2008.0139s",
+      "resolved_title": [
+        "AquaCrop\u2014The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2009,
+          5
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R12",
+      "expected_title": "The Ensemble Kalman Filter: theoretical formulation and practical implementation",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1007/s10236-003-0036-9",
+      "http_status": 200,
+      "resolved_doi": "10.1007/s10236-003-0036-9",
+      "resolved_title": [
+        "The Ensemble Kalman Filter: theoretical formulation and practical implementation"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2003,
+          11,
+          1
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R13",
+      "expected_title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.jcp.2018.10.045",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.jcp.2018.10.045",
+      "resolved_title": [
+        "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2019,
+          2
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R14",
+      "expected_title": "Physics-informed machine learning",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1038/s42254-021-00314-5",
+      "http_status": 200,
+      "resolved_doi": "10.1038/s42254-021-00314-5",
+      "resolved_title": [
+        "Physics-informed machine learning"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2021,
+          5,
+          24
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R15",
+      "expected_title": "Physics-Informed Neural Networks With Monotonicity Constraints for Richardson-Richards Equation: Estimation of Constitutive Relationships and Soil Water Flux Density From Volumetric Water Content Measurements",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1029/2020wr027642",
+      "http_status": 200,
+      "resolved_doi": "10.1029/2020wr027642",
+      "resolved_title": [
+        "Physics\u2010Informed Neural Networks With Monotonicity Constraints for Richardson\u2010Richards Equation: Estimation of Constitutive Relationships and Soil Water Flux Density From Volumetric Water Content Measurements"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2021,
+          2
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R16",
+      "expected_title": "Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.5194/hess-26-4469-2022",
+      "http_status": 200,
+      "resolved_doi": "10.5194/hess-26-4469-2022",
+      "resolved_title": [
+        "Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2022,
+          8,
+          30
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R17",
+      "expected_title": "Characterizing possible failure modes in physics-informed neural networks",
+      "kind": "published-paper",
+      "primary_source": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+      "status": "Identity documented in inherited primary-source record; no Crossref DOI assigned here"
+    },
+    {
+      "id": "R18",
+      "expected_title": "Model predictive control of agro-hydrological systems based on a two-layer neural network modeling framework",
+      "kind": "preprint",
+      "metadata_url": "https://api.crossref.org/works/10.48550/arXiv.2204.12694",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "R19",
+      "expected_title": "Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.agwat.2025.109957",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.agwat.2025.109957",
+      "resolved_title": [
+        "Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2025,
+          12
+        ]
+      ],
+      "doi_matches": true
+    },
+    {
+      "id": "R20",
+      "expected_title": "Advancing sustainable solar greenhouse management through digital twin enabled by functional-structural plant modeling: case study in Beijing, China",
+      "kind": "published-paper",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.enconman.2025.120505",
+      "http_status": 200,
+      "resolved_doi": "10.1016/j.enconman.2025.120505",
+      "resolved_title": [
+        "Advancing sustainable solar greenhouse management through digital twin enabled by functional\u2013structural plant modeling: case study in Beijing, China"
+      ],
+      "resolved_type": "journal-article",
+      "resolved_year": [
+        [
+          2025,
+          12
+        ]
+      ],
+      "doi_matches": true
+    }
+  ]
+}

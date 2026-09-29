@@ -1,0 +1,954 @@
+{
+  "topic": "AI and Digital Twins for Smart Farming",
+  "checked_on": "2026-09-25",
+  "categories": [
+    "Digital-Twin Reviews and Architectures",
+    "Soil Physics and Crop Models",
+    "Calibration and Physics-Informed Learning",
+    "Smart-Farming Applications",
+    "Data and Evaluation Foundations",
+    "Technical Guide and Preprint"
+  ],
+  "papers": [
+    {
+      "id": "R01",
+      "title": "Digital twins in smart farming",
+      "authors": [
+        {
+          "given": "Cor",
+          "family": "Verdouw"
+        },
+        {
+          "given": "Bedir",
+          "family": "Tekinerdogan"
+        },
+        {
+          "given": "Adrie",
+          "family": "Beulens"
+        },
+        {
+          "given": "Sjaak",
+          "family": "Wolfert"
+        }
+      ],
+      "year": 2021,
+      "venue": "Agricultural Systems",
+      "volume": "189",
+      "issue": "",
+      "pages": "103046",
+      "doi": "10.1016/j.agsy.2020.103046",
+      "url": "https://doi.org/10.1016/j.agsy.2020.103046",
+      "category": "Digital-Twin Reviews and Architectures",
+      "kind": "published-paper",
+      "relevance": "Connects digital representations to smart-farming management cycles.",
+      "limitation": "Conceptual architecture and use cases do not establish universal water savings.",
+      "manuscript_reference": 1,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.agsy.2020.103046",
+        "primary_source": "https://edepot.wur.nl/541204",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R02",
+      "title": "Introducing digital twins to agriculture",
+      "authors": [
+        {
+          "given": "Christos",
+          "family": "Pylianidis"
+        },
+        {
+          "given": "Sjoukje",
+          "family": "Osinga"
+        },
+        {
+          "given": "Ioannis N.",
+          "family": "Athanasiadis"
+        }
+      ],
+      "year": 2021,
+      "venue": "Computers and Electronics in Agriculture",
+      "volume": "184",
+      "issue": "",
+      "pages": "105942",
+      "doi": "10.1016/j.compag.2020.105942",
+      "url": "https://doi.org/10.1016/j.compag.2020.105942",
+      "category": "Digital-Twin Reviews and Architectures",
+      "kind": "published-paper",
+      "relevance": "Maps early agricultural digital-twin use cases and adoption pathways.",
+      "limitation": "A historical review should not be treated as a current census of deployments.",
+      "manuscript_reference": 2,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.compag.2020.105942",
+        "primary_source": "https://www.athanasiadis.info/assets/pdf/cea2021.pdf",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R03",
+      "title": "Digital Twins in Agriculture: A State-of-the-art review",
+      "authors": [
+        {
+          "given": "Warren",
+          "family": "Purcell"
+        },
+        {
+          "given": "Thomas",
+          "family": "Neubauer"
+        }
+      ],
+      "year": 2023,
+      "venue": "Smart Agricultural Technology",
+      "volume": "3",
+      "issue": "",
+      "pages": "100094",
+      "doi": "10.1016/j.atech.2022.100094",
+      "url": "https://doi.org/10.1016/j.atech.2022.100094",
+      "category": "Digital-Twin Reviews and Architectures",
+      "kind": "published-paper",
+      "relevance": "Reviews agricultural digital-twin definitions, applications, and integration.",
+      "limitation": "Definitions and maturity vary across the reviewed systems.",
+      "manuscript_reference": 3,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.atech.2022.100094",
+        "primary_source": "https://doi.org/10.1016/j.atech.2022.100094",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R04",
+      "title": "Digital twins in agriculture: A systematic literature review on modeling, semantics, and interoperability",
+      "authors": [
+        {
+          "given": "Pedro Henrique",
+          "family": "Morgan Pereira"
+        },
+        {
+          "given": "Giovana",
+          "family": "Costa Piazza"
+        },
+        {
+          "given": "Khalid",
+          "family": "Usman"
+        },
+        {
+          "given": "Luan",
+          "family": "Santos Comelli da Silveira"
+        },
+        {
+          "given": "Vinícius",
+          "family": "Cella Ceriotti"
+        },
+        {
+          "given": "Yuri",
+          "family": "de Souza Pazin"
+        },
+        {
+          "given": "Edison",
+          "family": "Pignaton de Freitas"
+        }
+      ],
+      "year": 2026,
+      "venue": "Smart Agricultural Technology",
+      "volume": "14",
+      "issue": "",
+      "pages": "102283",
+      "doi": "10.1016/j.atech.2026.102283",
+      "url": "https://doi.org/10.1016/j.atech.2026.102283",
+      "category": "Digital-Twin Reviews and Architectures",
+      "kind": "published-paper",
+      "relevance": "Examines agricultural modelling, semantic representation, and interoperability.",
+      "limitation": "Its literature corpus is not the search corpus of the accompanying narrative review.",
+      "manuscript_reference": 4,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.atech.2026.102283",
+        "primary_source": "https://www.sciencedirect.com/science/article/pii/S2772375526005083",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R05",
+      "title": "Digital Twin in manufacturing: A categorical literature review and classification",
+      "authors": [
+        {
+          "given": "Werner",
+          "family": "Kritzinger"
+        },
+        {
+          "given": "Matthias",
+          "family": "Karner"
+        },
+        {
+          "given": "Georg",
+          "family": "Traar"
+        },
+        {
+          "given": "Jan",
+          "family": "Henjes"
+        },
+        {
+          "given": "Wilfried",
+          "family": "Sihn"
+        }
+      ],
+      "year": 2018,
+      "venue": "IFAC-PapersOnLine",
+      "volume": "51",
+      "issue": "11",
+      "pages": "1016-1022",
+      "doi": "10.1016/j.ifacol.2018.08.474",
+      "url": "https://doi.org/10.1016/j.ifacol.2018.08.474",
+      "category": "Digital-Twin Reviews and Architectures",
+      "kind": "published-paper",
+      "relevance": "Provides the model, shadow, and twin data-flow classification used for careful terminology.",
+      "limitation": "A manufacturing taxonomy needs contextual adaptation to agriculture.",
+      "manuscript_reference": 5,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.ifacol.2018.08.474",
+        "primary_source": "https://doi.org/10.1016/j.ifacol.2018.08.474",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R06",
+      "title": "Crop evapotranspiration: Guidelines for computing crop water requirements",
+      "authors": [
+        {
+          "given": "Richard G.",
+          "family": "Allen"
+        },
+        {
+          "given": "Luis S.",
+          "family": "Pereira"
+        },
+        {
+          "given": "Dirk",
+          "family": "Raes"
+        },
+        {
+          "given": "Martin",
+          "family": "Smith"
+        }
+      ],
+      "year": 1998,
+      "venue": "FAO Irrigation and Drainage Paper 56. Food and Agriculture Organization, Rome",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "url": "https://www.fao.org/4/x0490e/x0490e00.htm",
+      "category": "Technical Guide and Preprint",
+      "kind": "technical-guide",
+      "relevance": "Provides evapotranspiration and root-zone depletion concepts for irrigation accounting.",
+      "limitation": "A technical guide, not a journal paper; crop and site assumptions require local adaptation.",
+      "manuscript_reference": 6,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://www.fao.org/4/x0490e/x0490e00.htm",
+        "primary_source": "https://www.fao.org/4/x0490e/x0490e00.htm",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R07",
+      "title": "CAPILLARY CONDUCTION OF LIQUIDS THROUGH POROUS MEDIUMS",
+      "authors": [
+        {
+          "given": "L. A.",
+          "family": "Richards"
+        }
+      ],
+      "year": 1931,
+      "venue": "Physics",
+      "volume": "1",
+      "issue": "5",
+      "pages": "318-333",
+      "doi": "10.1063/1.1745010",
+      "url": "https://doi.org/10.1063/1.1745010",
+      "category": "Soil Physics and Crop Models",
+      "kind": "published-paper",
+      "relevance": "Supplies the physical foundation for capillary flow in porous media.",
+      "limitation": "A governing equation alone does not determine local parameters or boundary conditions.",
+      "manuscript_reference": 7,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1063/1.1745010",
+        "primary_source": "https://doi.org/10.1063/1.1745010",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R08",
+      "title": "A Closed-form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils",
+      "authors": [
+        {
+          "given": "M. Th.",
+          "family": "van Genuchten"
+        }
+      ],
+      "year": 1980,
+      "venue": "Soil Science Society of America Journal",
+      "volume": "44",
+      "issue": "5",
+      "pages": "892-898",
+      "doi": "10.2136/sssaj1980.03615995004400050002x",
+      "url": "https://doi.org/10.2136/sssaj1980.03615995004400050002x",
+      "category": "Soil Physics and Crop Models",
+      "kind": "published-paper",
+      "relevance": "Defines a widely used soil-water retention and conductivity relationship.",
+      "limitation": "The functional form does not remove parameter uncertainty or represent every soil process.",
+      "manuscript_reference": 8,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.2136/sssaj1980.03615995004400050002x",
+        "primary_source": "https://doi.org/10.2136/sssaj1980.03615995004400050002x",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R09",
+      "title": "A new model for predicting the hydraulic conductivity of unsaturated porous media",
+      "authors": [
+        {
+          "given": "Yechezkel",
+          "family": "Mualem"
+        }
+      ],
+      "year": 1976,
+      "venue": "Water Resources Research",
+      "volume": "12",
+      "issue": "3",
+      "pages": "513-522",
+      "doi": "10.1029/wr012i003p00513",
+      "url": "https://doi.org/10.1029/wr012i003p00513",
+      "category": "Soil Physics and Crop Models",
+      "kind": "published-paper",
+      "relevance": "Provides the conductivity model paired with the van Genuchten retention relationship.",
+      "limitation": "Hydraulic closure requires calibration and a stated domain of validity.",
+      "manuscript_reference": 9,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1029/wr012i003p00513",
+        "primary_source": "https://doi.org/10.1029/wr012i003p00513",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R10",
+      "title": "APSIM - Evolution towards a new generation of agricultural systems simulation",
+      "authors": [
+        {
+          "given": "Dean P.",
+          "family": "Holzworth"
+        },
+        {
+          "given": "Neil I.",
+          "family": "Huth"
+        },
+        {
+          "given": "Peter G.",
+          "family": "deVoil"
+        },
+        {
+          "given": "Eric J.",
+          "family": "Zurcher"
+        },
+        {
+          "given": "Neville I.",
+          "family": "Herrmann"
+        },
+        {
+          "given": "Greg",
+          "family": "McLean"
+        },
+        {
+          "given": "Karine",
+          "family": "Chenu"
+        },
+        {
+          "given": "Erik J.",
+          "family": "van Oosterom"
+        },
+        {
+          "given": "Val",
+          "family": "Snow"
+        },
+        {
+          "given": "Chris",
+          "family": "Murphy"
+        },
+        {
+          "given": "Andrew D.",
+          "family": "Moore"
+        },
+        {
+          "given": "Hamish",
+          "family": "Brown"
+        },
+        {
+          "given": "Jeremy P.M.",
+          "family": "Whish"
+        },
+        {
+          "given": "Shaun",
+          "family": "Verrall"
+        },
+        {
+          "given": "Justin",
+          "family": "Fainges"
+        },
+        {
+          "given": "Lindsay W.",
+          "family": "Bell"
+        },
+        {
+          "given": "Allan S.",
+          "family": "Peake"
+        },
+        {
+          "given": "Perry L.",
+          "family": "Poulton"
+        },
+        {
+          "given": "Zvi",
+          "family": "Hochman"
+        },
+        {
+          "given": "Peter J.",
+          "family": "Thorburn"
+        },
+        {
+          "given": "Donald S.",
+          "family": "Gaydon"
+        },
+        {
+          "given": "Neal P.",
+          "family": "Dalgliesh"
+        },
+        {
+          "given": "Daniel",
+          "family": "Rodriguez"
+        },
+        {
+          "given": "Howard",
+          "family": "Cox"
+        },
+        {
+          "given": "Scott",
+          "family": "Chapman"
+        },
+        {
+          "given": "Alastair",
+          "family": "Doherty"
+        },
+        {
+          "given": "Edmar",
+          "family": "Teixeira"
+        },
+        {
+          "given": "Joanna",
+          "family": "Sharp"
+        },
+        {
+          "given": "Rogerio",
+          "family": "Cichota"
+        },
+        {
+          "given": "Iris",
+          "family": "Vogeler"
+        },
+        {
+          "given": "Frank Y.",
+          "family": "Li"
+        },
+        {
+          "given": "Enli",
+          "family": "Wang"
+        },
+        {
+          "given": "Graeme L.",
+          "family": "Hammer"
+        },
+        {
+          "given": "Michael J.",
+          "family": "Robertson"
+        },
+        {
+          "given": "John P.",
+          "family": "Dimes"
+        },
+        {
+          "given": "Anthony M.",
+          "family": "Whitbread"
+        },
+        {
+          "given": "James",
+          "family": "Hunt"
+        },
+        {
+          "given": "Harm",
+          "family": "van Rees"
+        },
+        {
+          "given": "Tim",
+          "family": "McClelland"
+        },
+        {
+          "given": "Peter S.",
+          "family": "Carberry"
+        },
+        {
+          "given": "John N.G.",
+          "family": "Hargreaves"
+        },
+        {
+          "given": "Neil",
+          "family": "MacLeod"
+        },
+        {
+          "given": "Cam",
+          "family": "McDonald"
+        },
+        {
+          "given": "Justin",
+          "family": "Harsdorf"
+        },
+        {
+          "given": "Sara",
+          "family": "Wedgwood"
+        },
+        {
+          "given": "Brian A.",
+          "family": "Keating"
+        }
+      ],
+      "year": 2014,
+      "venue": "Environmental Modelling & Software",
+      "volume": "62",
+      "issue": "",
+      "pages": "327-350",
+      "doi": "10.1016/j.envsoft.2014.07.009",
+      "url": "https://doi.org/10.1016/j.envsoft.2014.07.009",
+      "category": "Soil Physics and Crop Models",
+      "kind": "published-paper",
+      "relevance": "Explains a modular agricultural systems simulation framework for crop-soil coupling.",
+      "limitation": "A simulator is not an operational digital twin without observations and feedback.",
+      "manuscript_reference": 10,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.envsoft.2014.07.009",
+        "primary_source": "https://doi.org/10.1016/j.envsoft.2014.07.009",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R11",
+      "title": "AquaCrop-The FAO Crop Model to Simulate Yield Response to Water: I. Concepts and Underlying Principles",
+      "authors": [
+        {
+          "given": "Pasquale",
+          "family": "Steduto"
+        },
+        {
+          "given": "Theodore C.",
+          "family": "Hsiao"
+        },
+        {
+          "given": "Dirk",
+          "family": "Raes"
+        },
+        {
+          "given": "Elias",
+          "family": "Fereres"
+        }
+      ],
+      "year": 2009,
+      "venue": "Agronomy Journal",
+      "volume": "101",
+      "issue": "3",
+      "pages": "426-437",
+      "doi": "10.2134/agronj2008.0139s",
+      "url": "https://doi.org/10.2134/agronj2008.0139s",
+      "category": "Soil Physics and Crop Models",
+      "kind": "published-paper",
+      "relevance": "Links crop production response to water availability through AquaCrop concepts.",
+      "limitation": "Crop parameters and management assumptions need independent validation.",
+      "manuscript_reference": 11,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.2134/agronj2008.0139s",
+        "primary_source": "https://doi.org/10.2134/agronj2008.0139s",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R12",
+      "title": "The Ensemble Kalman Filter: theoretical formulation and practical implementation",
+      "authors": [
+        {
+          "given": "Geir",
+          "family": "Evensen"
+        }
+      ],
+      "year": 2003,
+      "venue": "Ocean Dynamics",
+      "volume": "53",
+      "issue": "4",
+      "pages": "343-367",
+      "doi": "10.1007/s10236-003-0036-9",
+      "url": "https://doi.org/10.1007/s10236-003-0036-9",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Provides the ensemble Kalman filter basis for sequential state estimation.",
+      "limitation": "Sampling, observation error, nonlinearity, and analysis water increments need attention.",
+      "manuscript_reference": 12,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1007/s10236-003-0036-9",
+        "primary_source": "https://doi.org/10.1007/s10236-003-0036-9",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R13",
+      "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+      "authors": [
+        {
+          "given": "M.",
+          "family": "Raissi"
+        },
+        {
+          "given": "P.",
+          "family": "Perdikaris"
+        },
+        {
+          "given": "G.E.",
+          "family": "Karniadakis"
+        }
+      ],
+      "year": 2019,
+      "venue": "Journal of Computational Physics",
+      "volume": "378",
+      "issue": "",
+      "pages": "686-707",
+      "doi": "10.1016/j.jcp.2018.10.045",
+      "url": "https://doi.org/10.1016/j.jcp.2018.10.045",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Introduces PINN formulations for forward and inverse differential-equation problems.",
+      "limitation": "Physics loss does not guarantee exact conservation or superiority over conventional solvers.",
+      "manuscript_reference": 13,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.jcp.2018.10.045",
+        "primary_source": "https://doi.org/10.1016/j.jcp.2018.10.045",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R14",
+      "title": "Physics-informed machine learning",
+      "authors": [
+        {
+          "given": "George Em",
+          "family": "Karniadakis"
+        },
+        {
+          "given": "Ioannis G.",
+          "family": "Kevrekidis"
+        },
+        {
+          "given": "Lu",
+          "family": "Lu"
+        },
+        {
+          "given": "Paris",
+          "family": "Perdikaris"
+        },
+        {
+          "given": "Sifan",
+          "family": "Wang"
+        },
+        {
+          "given": "Liu",
+          "family": "Yang"
+        }
+      ],
+      "year": 2021,
+      "venue": "Nature Reviews Physics",
+      "volume": "3",
+      "issue": "6",
+      "pages": "422-440",
+      "doi": "10.1038/s42254-021-00314-5",
+      "url": "https://doi.org/10.1038/s42254-021-00314-5",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Places PINNs within the broader family of physics-informed machine learning.",
+      "limitation": "Methodological promise is distinct from agronomic field evidence.",
+      "manuscript_reference": 14,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1038/s42254-021-00314-5",
+        "primary_source": "https://doi.org/10.1038/s42254-021-00314-5",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R15",
+      "title": "Physics-Informed Neural Networks With Monotonicity Constraints for Richardson-Richards Equation: Estimation of Constitutive Relationships and Soil Water Flux Density From Volumetric Water Content Measurements",
+      "authors": [
+        {
+          "given": "Toshiyuki",
+          "family": "Bandai"
+        },
+        {
+          "given": "Teamrat A.",
+          "family": "Ghezzehei"
+        }
+      ],
+      "year": 2021,
+      "venue": "Water Resources Research",
+      "volume": "57",
+      "issue": "2",
+      "pages": "e2020WR027642",
+      "doi": "10.1029/2020wr027642",
+      "url": "https://doi.org/10.1029/2020wr027642",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Studies hydraulic constitutive inference and water flux from soil-moisture measurements.",
+      "limitation": "Inverse modelling evidence is not evidence of field-level irrigation savings.",
+      "manuscript_reference": 15,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1029/2020wr027642",
+        "primary_source": "https://doi.org/10.1029/2020wr027642",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R16",
+      "title": "Forward and inverse modeling of water flow in unsaturated soils with discontinuous hydraulic conductivities using physics-informed neural networks with domain decomposition",
+      "authors": [
+        {
+          "given": "Toshiyuki",
+          "family": "Bandai"
+        },
+        {
+          "given": "Teamrat A.",
+          "family": "Ghezzehei"
+        }
+      ],
+      "year": 2022,
+      "venue": "Hydrology and Earth System Sciences",
+      "volume": "26",
+      "issue": "16",
+      "pages": "4469-4495",
+      "doi": "10.5194/hess-26-4469-2022",
+      "url": "https://doi.org/10.5194/hess-26-4469-2022",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Tests forward and inverse Richards PINNs and domain decomposition for layered soils.",
+      "limitation": "Numerical validation and training costs must not be recast as an operational field trial.",
+      "manuscript_reference": 16,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.5194/hess-26-4469-2022",
+        "primary_source": "https://hess.copernicus.org/articles/26/4469/2022/",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R17",
+      "title": "Characterizing possible failure modes in physics-informed neural networks",
+      "authors": [
+        {
+          "given": "Aditi",
+          "family": "Krishnapriyan"
+        },
+        {
+          "given": "Amir",
+          "family": "Gholami"
+        },
+        {
+          "given": "Shandian",
+          "family": "Zhe"
+        },
+        {
+          "given": "Robert",
+          "family": "Kirby"
+        },
+        {
+          "given": "Michael W.",
+          "family": "Mahoney"
+        }
+      ],
+      "year": 2021,
+      "venue": "Advances in Neural Information Processing Systems",
+      "volume": "34",
+      "issue": "",
+      "pages": "26548-26560",
+      "doi": "",
+      "url": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+      "category": "Calibration and Physics-Informed Learning",
+      "kind": "published-paper",
+      "relevance": "Demonstrates optimisation-related PINN failure modes that motivate strong baselines.",
+      "limitation": "Failures on selected PDE problems do not prove all PINNs fail on all soil-water tasks.",
+      "manuscript_reference": 17,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+        "primary_source": "https://papers.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R18",
+      "title": "Model predictive control of agro-hydrological systems based on a two-layer neural network modeling framework",
+      "authors": [
+        {
+          "given": "Zhiyinan",
+          "family": "Huang"
+        },
+        {
+          "given": "Jinfeng",
+          "family": "Liu"
+        },
+        {
+          "given": "Biao",
+          "family": "Huang"
+        }
+      ],
+      "year": 2022,
+      "venue": "arXiv preprint arXiv:2204.12694",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.48550/arXiv.2204.12694",
+      "url": "https://doi.org/10.48550/arXiv.2204.12694",
+      "category": "Technical Guide and Preprint",
+      "kind": "preprint",
+      "relevance": "Studies neural-network approximation within zone model predictive irrigation control.",
+      "limitation": "Cited as an arXiv preprint and numerical control study, not peer-reviewed field evidence.",
+      "manuscript_reference": 18,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://arxiv.org/abs/2204.12694",
+        "primary_source": "https://arxiv.org/abs/2204.12694",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R19",
+      "title": "Digital twin-enabled intelligent irrigation-drainage system for precision water-salt management in saline agroecosystems",
+      "authors": [
+        {
+          "given": "Mengting",
+          "family": "Qin"
+        },
+        {
+          "given": "Chuansong",
+          "family": "Zhang"
+        },
+        {
+          "given": "Guorong",
+          "family": "Ma"
+        },
+        {
+          "given": "Yongcheng",
+          "family": "Ma"
+        },
+        {
+          "given": "Xiong",
+          "family": "Feng"
+        },
+        {
+          "given": "Peijie",
+          "family": "Li"
+        },
+        {
+          "given": "Kepeng",
+          "family": "Feng"
+        }
+      ],
+      "year": 2025,
+      "venue": "Agricultural Water Management",
+      "volume": "322",
+      "issue": "",
+      "pages": "109957",
+      "doi": "10.1016/j.agwat.2025.109957",
+      "url": "https://doi.org/10.1016/j.agwat.2025.109957",
+      "category": "Smart-Farming Applications",
+      "kind": "published-paper",
+      "relevance": "Reports a twin-enabled irrigation-drainage system addressing water-salt management.",
+      "limitation": "A site-specific multi-component platform does not isolate the causal benefit of AI alone.",
+      "manuscript_reference": 19,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2025.109957",
+        "primary_source": "https://doi.org/10.1016/j.agwat.2025.109957",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    },
+    {
+      "id": "R20",
+      "title": "Advancing sustainable solar greenhouse management through digital twin enabled by functional-structural plant modeling: case study in Beijing, China",
+      "authors": [
+        {
+          "given": "Demin",
+          "family": "Xu"
+        },
+        {
+          "given": "Jinyu",
+          "family": "Zhu"
+        },
+        {
+          "given": "Yuntao",
+          "family": "Ma"
+        }
+      ],
+      "year": 2025,
+      "venue": "Energy Conversion and Management",
+      "volume": "346",
+      "issue": "",
+      "pages": "120505",
+      "doi": "10.1016/j.enconman.2025.120505",
+      "url": "https://doi.org/10.1016/j.enconman.2025.120505",
+      "category": "Smart-Farming Applications",
+      "kind": "published-paper",
+      "relevance": "Connects functional-structural plant modelling to greenhouse twin management.",
+      "limitation": "A greenhouse case study does not establish transfer to open-field agriculture.",
+      "manuscript_reference": 20,
+      "verification": {
+        "date": "2026-09-25",
+        "metadata_source": "https://api.crossref.org/works/10.1016/j.enconman.2025.120505",
+        "primary_source": "https://doi.org/10.1016/j.enconman.2025.120505",
+        "scope": "Bibliographic identity checked; selected source material supports the relevance note. Not a full-text replication or complete claim audit.",
+        "human_full_text_review": "pending"
+      }
+    }
+  ]
+}
