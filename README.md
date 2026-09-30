@@ -125,6 +125,12 @@ The checker tests local links, counts, and assets, not scientific truth. [Remote
 
 ## Assignment
 
+### Assignment 1
+
+**AI-Assisted Citation Integrity Audit:** the current research basis is **The Convergence of Artificial Intelligence and Digital Twins for Smart Farming: A Critical Review of Architectures, Applications, and Research Directions**. The [latest smart-farming paper](assignments/AS6/Vineesh_Cutting_RSI2026505_AS6/Smart_Farming_Digital_Twins_ACM_CSUR.pdf) covers governing equations, model calibration, physics-informed learning, soil moisture, water consumption, and irrigation decisions, with 20 references managed in [BibTeX](assignments/AS6/Vineesh_Cutting_RSI2026505_AS6/references.bib).
+
+**Status: smart-farming manuscript and bibliographic verification available; complete Lab 1 submission evidence remains to be documented.** The [source-check notes](assignments/AS6/Vineesh_Cutting_RSI2026505_AS6/Evidence/Source_Check_Notes.md) record bibliographic checks and evidence limits. The earlier [smart-farming citation audit](citation-audit/Citation_Integrity_Audit.md) provides focused claim assessments for its September 25 manuscript version; it is not a complete Parts A-H audit of the latest revision. See the [Assignment 1 checklist](docs/assignment-1-checklist.md) for available evidence and the remaining baseline, sampling, prediction, classification, scoring, and original-output records. The revised paper is not presented as the untouched initial AI output.
+
 ### Assignment 2
 
 This repository supports Assignment 2, **Create Your Own Awesome Research Repository on GitHub**, for the subject **AI Tools for Research**. The [Assignment 2 checklist](docs/assignment-2-checklist.md) maps the required paper, citation audit, bibliography, datasets, tools, implementations, and learning resources to the repository contents. Independent source review, an appropriate repository description, meaningful commit history, and final submission checks remain part of the assignment workflow.
